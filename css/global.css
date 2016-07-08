@@ -2715,7 +2715,7 @@ animation-fill-mode: both;position: absolute; }
 .wu-income-sum{text-align: center;margin-top: -6px;}
 .wu-income-sum .income-sum-num{font-size: 1.3rem;font-weight: bolder;}
 /*下*/
-.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0; display:flex; display: -webkit-flex; display: -webkit-box;}
+.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0; display:flex; display: -webkit-box; display: -webkit-flex;}
 .wu-balance-all .balance-item{width:0; text-align: center;flex: 1;-webkit-box-flex: 1;}
 .balance-col{width: 1px; height: 1.2rem;background: #fff;opacity: 0.7;}
 
@@ -2725,7 +2725,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .my-options-col{width: 0.05rem;background: #f5f5f5;}
 .wu-my-options-1 .yesterday-income{color: #666; height: 1.2rem;padding: 0 0.6rem;font-size: 0.55rem;line-height: 1.2rem;}
 .wu-my-options-1 .yesterday-income .yesterday-income-num{color: #ff9900;font-size: 0.65rem;vertical-align: middle;}
-.wu-nine-box{display: flex; display: -webkit-flex; display: -webkit-box;}
+.wu-nine-box{display:flex; display: -webkit-box; display: -webkit-flex;}
 .wu-nine-box .nine-box-list{ overflow: hidden; position: relative; width:0; padding-top: 0.65rem;padding-bottom: 0.6rem; flex: 1; -webkit-box-flex: 1; display: block; color: #666;}
 
 .my-remind{position: absolute; top: 0; right: 0; background:url(../images/my-remind.png)  no-repeat;background-size:29px 88px}
@@ -2747,7 +2747,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .nine-icon-10{height:25px;width:25px;background-position:0 -75px;}
 
 /*充值提现按钮*/
-.self-wu-button{display:flex; display: -webkit-flex; display: -webkit-box;justify-content: center; -webkit-justify-content: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
+.self-wu-button{display:flex; display: -webkit-box; display: -webkit-flex;justify-content: center; -webkit-justify-content: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
 .wu-btn{width: 38%;text-align: center;border-radius: 5px;line-height: 1.85rem;margin: 0 0.5rem;}
 .wu-btn.self-get-btn{border: 1px solid #999; color: #999;}
 .wu-btn.self-post-btn{background-color: #ff9900;color: #fff;}
