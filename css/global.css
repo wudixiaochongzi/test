@@ -2728,7 +2728,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-my-options-1 .yesterday-income{color: #666; height: 1.2rem;padding: 0 0.6rem;font-size: 0.55rem;line-height: 1.2rem;}
 .wu-my-options-1 .yesterday-income .yesterday-income-num{color: #ff9900;}
 .wu-nine-box{display:flex;display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;}
-.wu-nine-box .nine-box-list{ padding-top: 0.65rem;padding-bottom: 0.6rem; flex: 1;-webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; display: block; color: #666;}
+.wu-nine-box .nine-box-list{ width:100%; padding-top: 0.65rem;padding-bottom: 0.6rem; flex: 1;-webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; display: block; color: #666;}
 .nine-box-icon{margin: 0 auto; background:url(../images/nine-box-icon.png)  no-repeat;background-size:25px 250px}
 .wu-nine-box .nine-box-list .nine-box-title{text-align: center;padding-top:0.3rem;font-size: 0.55rem;}
 .nine-icon-1{height:25px;width:25px;background-position:0 -150px;}
