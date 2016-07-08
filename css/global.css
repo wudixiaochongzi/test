@@ -2727,7 +2727,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-my-options-1 .yesterday-income .yesterday-income-num{color: #ff9900;font-size: 0.65rem;vertical-align: middle;}
 .wu-nine-box{display:flex;display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;}
 .wu-nine-box .nine-box-list{ overflow: hidden; position: relative; width:0; padding-top: 0.65rem;padding-bottom: 0.6rem; flex: 1;-webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; display: block; color: #666;}
-.wu-nine-box .nine-box-list .my-remind{width: 3rem;height: 3rem; padding-top:1rem; background-color: #ff6600;position: absolute;text-align: center;color: #fff;font-size: 10px;line-height: 5.8;top: -1.8rem;right: -1.8rem;transform: rotateZ(45deg);-webkit-transform: rotateZ(45deg);-moz-transform: rotateZ(45deg);}
+.wu-nine-box .nine-box-list .my-remind{width: 3rem;height: 3rem; padding-top:1rem; background-color: #ff6600;position: absolute;text-align: center;color: #fff;font-size: 10px;line-height: 6;top: -1.8rem;right: -1.8rem;transform: rotateZ(45deg);-webkit-transform: rotateZ(45deg);-moz-transform: rotateZ(45deg);}
 .nine-box-icon{margin: 0 auto; background:url(../images/nine-box-icon.png)  no-repeat;background-size:25px 250px}
 .wu-nine-box .nine-box-list .nine-box-title{text-align: center;padding-top:0.3rem;font-size: 0.55rem;}
 .nine-icon-1{height:25px;width:25px;background-position:0 -150px;}
