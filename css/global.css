@@ -2715,7 +2715,7 @@ animation-fill-mode: both;position: absolute; }
 .wu-income-sum .income-sum-num{font-size: 1.3rem;font-weight: bolder;}
 /*下*/
 .wu-balance-all{align-items: center; padding: 0.4rem 0; display:flex;display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;}
-.wu-balance-all .balance-item{text-align: center;flex: 1;}
+.wu-balance-all .balance-item{text-align: center;flex: 1;-webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1;}
 .balance-col{width: 1px; height: 1.2rem;background: #fff;opacity: 0.7;}
 /*.wu-balance-all .balance-item>div:nth-child(2){font-weight: bolder;}*/
 
