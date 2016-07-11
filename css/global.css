@@ -2836,7 +2836,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bank-info{display: inline-block;vertical-align: middle;color: #333;}
 .bank-info .bank-info-name{font-size: inherit;}
 .bank-info .bank-info-end{font-size: 0.55rem;color: #b4b4b4;}
-.wu-ensure-buy{height: 5rem; background-color: #fff;position: fixed;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
+.wu-ensure-buy{height: 5rem; background-color: #fff;position: absolute;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
 .wu-model-agreement{margin-bottom: 5.2rem; margin-top: 0.75rem;}
 .wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;}
 .wu-ensure-buy .final-pay-box>div[class^='final-pay-']{height: 50%;}
