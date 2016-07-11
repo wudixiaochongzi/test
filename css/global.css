@@ -1742,7 +1742,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .purchase-finance  .finance-sum .change-amount-2 span{ font-size:1rem; color:#333;}
 
 .purchase-finance .list-block.payment-msg {margin: 0 0 .5rem 0;}
-.purchase-finance .account-balance-item {text-align: center;font-size: .6rem;margin-top: .5rem;margin-bottom: 0.6rem;color: #c8c8c8;}
+.purchase-finance .account-balance-item {text-align: center;font-size: .7rem;margin-top: .5rem;margin-bottom: 0.6rem;color: #c8c8c8;}
 .purchase-finance .account-balance-item a {margin-left: .2rem;color: #69cdff;}
 .purchase-finance .bankcard-msg .bank-maintain {position: absolute;font-size: .6rem;color: #69cdff;right: 1rem;}
 .purchase-finance .payment-msg .actual-payment {padding-left: .6rem;}
