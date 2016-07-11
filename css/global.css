@@ -2837,11 +2837,14 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bank-info .bank-info-name{font-size: inherit;}
 .bank-info .bank-info-end{font-size: 0.55rem;color: #b4b4b4;}
 .wu-ensure-buy{height: 5rem; background-color: #fff;position: fixed;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
-.wu-model-agreement{margin-bottom: 5.2rem;}
-.wu-ensure-buy .final-pay-box{height: 2.4rem;text-align: center;line-height: 2.4rem;}
+.wu-model-agreement{margin-bottom: 5.2rem; margin-top: 0.75rem;}
+.wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;}
+.wu-ensure-buy .final-pay-box>div[class^='final-pay-']{height: 50%;}
+.wu-ensure-buy .final-pay-box .final-pay-list1{line-height: 1.6rem;}
+.wu-ensure-buy .final-pay-box .final-pay-list2{font-size: 0.6rem;line-height: 1.35rem;color: #b4b4b4;}
 .wu-ensure-buy .final-pay-box .final-pay{color: #ff9900;}
 .wu-ensure-buy .final-pay-box .save-money{font-size: 0.6rem;color: #999;}
-.final-pay-submit{display: block;width: 100%;height: 2.6rem;background-color: #ff9900;border-radius: 0;}
+.final-pay-submit{display: block;width: 100%;height: 2.5rem;background-color: #ff9900;border-radius: 0;}
 .final-pay-submit>span{display:block; width: 100%;}
 .final-pay-submit>span:nth-child(1){line-height: 1.8; height: 60%;font-size: 0.9rem;}
 .final-pay-submit>span:nth-child(2){line-height: 1; height: 40%;font-size: 0.6rem;opacity: 0.8;}
