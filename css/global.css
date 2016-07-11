@@ -2827,7 +2827,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-btn.self-get-btn{border: 1px solid #999; color: #999;}
 .wu-btn.self-post-btn{background-color: #ff9900;color: #fff;}
 /*2、我要理财-确认购买*/
-.exp-income{padding: 0.25rem 0;}
+.exp-income{padding: 0.35rem 0;}
 .exp-income .exp-income-num{color: #ff9900;font-weight: bold;}
 .content-sum-title{padding: 0 0.75rem;height: 1.25rem;line-height: 1.35rem;color: #c8c8c8;font-size: 0.6rem;}
 .content-sum-num{color: #fa6335;}
