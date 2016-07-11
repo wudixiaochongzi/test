@@ -2495,7 +2495,7 @@ animation-fill-mode: both;position: absolute; }
 .coupon-sum .item-link .item-inner.no-link{ background:none;}
 .coupon-sum .item-link .item-inner.no-link .item-text{right:.8rem;}
 .coupon-sum .item-link .item-inner em{ font-style:normal;}
-.coupon-sum .item-title.label{font-size: inherit; margin: 4px 0;flex-shrink: 0;vertical-align: top;position: relative;max-width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #333; height:18px;}
+.coupon-sum .item-title.label{font-size: inherit; margin: 6px 0;flex-shrink: 0;vertical-align: top;position: relative;max-width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #333; height:18px;}
 .coupon-sum .item-title.padl24{ padding-left:2.4em;}
 .coupon-sum .item-title.label i{ position: relative; top:1px; margin-right:4px;}
 .coupon-sum .item-text{ color:#999; font-size:.6rem;margin: 4px 0px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;position: absolute;right: 3em;}
