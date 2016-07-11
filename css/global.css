@@ -2113,9 +2113,9 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 /* 登录 */
 .login{ background: url(../images/login-bg.jpg) 0 0 no-repeat;background-size: cover; }
 .login .navbar-toggle { position: relative; float: left; display: block; margin-top: .5rem; margin-left: .75rem; background-color: transparent; background-image: none; font-size: .9rem; color: #fff; }
-.login .logo{ margin-top: 2rem; width: 106px; height: 45px;  margin-right: auto; margin-left: auto; margin-bottom: 0; background: url(../images/login-logo.png) 0 0 no-repeat; background-size: cover; text-indent: -9999px;}
-.login-form{ margin-top: 1.5rem; padding-left: 2.5rem; padding-right: 2.5rem;}
-.login .form-group{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display:block; padding-bottom: .5rem; margin-bottom: 1rem; border-bottom: 1px solid #b6d8ec; color: #fff;}
+.login .logo{ margin-top: 2.2rem; width: 106px; height: 45px;  margin-right: auto; margin-left: auto; margin-bottom: 0; background: url(../images/login-logo.png) 0 0 no-repeat; background-size: cover; text-indent: -9999px;}
+.login-form{ margin-top: 1.5rem; padding-left: 2rem; padding-right: 2rem;}
+.login .form-group{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display:block; padding-bottom: .3rem; margin-bottom: 1rem; border-bottom: 1px solid #b6d8ec; color: #fff;}
 .login .form-group i{ font-size: 1rem;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
@@ -2129,7 +2129,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .form-group.verifycode input{ width:6rem;  vertical-align:middle;}
 .login .form-group.verifycode .verifycode-img{ position: absolute; top: -10px; right: 0; vertical-align:middle; }
 .login .form-group.verifycode .verifycode-img img{ height:1.5rem;  vertical-align:middle; }
-.login-forget-pwd{ float: right; opacity: .8;overflow: hidden;}
+.login-forget-pwd{ float: right; opacity: .8;overflow: hidden; padding-bottom: 0.5rem;margin-top: -0.6rem;}
 .login-forget-pwd a{ float:right; color: #fff; font-size: .7rem}
 .login .button-log{ margin-top: .5rem;}
 .login .button-reg{ margin-top: 1rem; background: rgba(255,255,255,.2); border: 1px solid #fff; color: #fff;}
@@ -2763,7 +2763,7 @@ animation-fill-mode: both;position: absolute; }
     ============= V2.1版本 =============
         1、个人中心
         2、我要理财-确认购买
-
+        3、登录
 */
 /* 1、个人中心 */
 /*清除浮动*/
@@ -2836,7 +2836,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bank-info{display: inline-block;vertical-align: middle;color: #333;}
 .bank-info .bank-info-name{font-size: inherit;}
 .bank-info .bank-info-end{font-size: 0.55rem;color: #b4b4b4;}
-.wu-ensure-buy{height: 5rem; background-color: #fff;position: absolute;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
+.wu-ensure-buy{height: 5rem; background-color: #fff;position: fixed;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
 .wu-model-agreement{margin-bottom: 5.2rem; margin-top: 0.75rem;}
 .wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;}
 .wu-ensure-buy .final-pay-box>div[class^='final-pay-']{height: 50%;}
@@ -2848,3 +2848,8 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .final-pay-submit>span{display:block; width: 100%;}
 .final-pay-submit>span:nth-child(1){line-height: 1.8; height: 60%;font-size: 0.9rem;}
 .final-pay-submit>span:nth-child(2){line-height: 1; height: 40%;font-size: 0.6rem;opacity: 0.8;}
+
+/*3、登录*/
+.wu-login-change{position: absolute;right: 0;color: #fff;height: 2rem;line-height: 2rem;padding-right: 0.75rem;}
+.login .actPsw-login-form .logpwd>input{width: calc(100% - 6.5rem);}
+.login-phone-code{border-radius: 5px; display: inline-block; line-height: 1.3rem;background-color: #7ECAEB;padding: 0 0.5rem;}
