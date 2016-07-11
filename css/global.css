@@ -2116,10 +2116,10 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .logo{ margin-top: 2.8rem; width: 106px; height: 45px;  margin-right: auto; margin-left: auto; margin-bottom: 0; background: url(../images/login-logo.png) 0 0 no-repeat; background-size: cover; text-indent: -9999px;}
 .login-form{ margin-top: 1.5rem; padding-left: 2rem; padding-right: 2rem;}
 .login .form-group{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display:block; padding-bottom: .3rem; margin-bottom: 1rem; border-bottom: 1px solid #b6d8ec; color: #fff;}
-.login .form-group i{ font-size: 1rem;}
+.login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
-.login .form-group input{ width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;}
+.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;}
 .login .form-group input::-webkit-input-placeholder {color:#fff; }
 .login .form-group input::-moz-placeholder { color:#fff;}
 .login .form-group input::-moz-placeholder {color:#fff;}
