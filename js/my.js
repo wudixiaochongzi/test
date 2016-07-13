@@ -449,3 +449,19 @@ $(function(){
         }
     })
 });
+
+// 个人中心-我的借款
+$(document).on("pageInit","#loan-details",function(e){
+    var data = [
+        {
+          value: 40,  //已还借款占总借款的半分比
+          color:"#32DAFF"
+        },
+        {
+          value : 60, //未还借款占总借款的半分比
+          color : "#b4ffe1"
+        }
+    ];
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var myNewChart = new Chart(ctx).Doughnut(data, {percentageInnerCutout : 90});
+});
