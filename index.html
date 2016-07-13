@@ -1,274 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-        <meta name="renderer" content="webkit|ie-comp|ie-stand">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-        <title>家金所</title>
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <!--  css 文件 -->
-        <link href="css/global.css"  rel="stylesheet">
-    </head>
-    <body class="mhome">
-        <div class="global">
-            <!-- 站点视图 Page-->
-            <div id="loan-details" class="page">
-                <div class="content">
-                	<header class="head-box">
-                        <a class="head-box-left" href="#"><div class=" arrow-left"></div></a>
-                        <h1 class="tit">我的借款</h1>
-                    </header>
-                    <!--  页面区域 -->
-                    <section class="asset-detail loan-detail">
-                    	<div class="total-assets-chart blue">
-                        	<div class="canva">
-                                <canvas id="myChart" width="180" height="180"></canvas>
-                            </div>
-                        	<div class="grid" style="top: 16%;">
-                                <span class="grid-value">500,000.00</span>
-                                <span class="grid-label">总借款（元）</span>
-                            </div>
-                            <div class="center loan-detail">
-                                <div class="loan-description">
-                                    <div class="loan-title"><em class="none-loan-point"></em>未还借款</div>
-                                    <div class="loan-num">30,000.00</div>
-                                </div>
-                                <div class="loan-description">
-                                    <div class="loan-title"><em class="yes-loan-point"></em>已还借款</div>
-                                    <div class="loan-num">30,000.00</div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <div class="loan-tab-content">
-                        <div class="buttons-tab">
-                            <a href="#tab1" class="tab-link active button">还款中借款</a>
-                            <a href="#tab2" class="tab-link button">已还清借款</a>
-                            <a href="#tab3" class="tab-link button">逾期中借款</a>
-                        </div>
-                        <div class="content-block">
-                            <div class="tabs">
-                                <!-- 还款中借款 -->
-                                <div id="tab1" class="tab active">
-                                    <div class="card loan-info">
-                                        <div class="card-content">
-                                            <div class="card-content-inner">
-                                                <div class="loan-time">借款日期：<span>2015-09-10</span></div>
-                                                <div class="loan-name"><i class="icon-jia"></i>家金宝2号zz15111000003</div>
-                                                <div class="loan-already">
-                                                    <div class="loan-already-left">
-                                                        <div class="loan-period"><em>1</em>&nbsp;/&nbsp;<em>9</em></div>
-                                                        <div>已还款期数&nbsp;/&nbsp;总期数</div>
-                                                    </div>
-                                                    <div class="loan-already-right">
-                                                        <div>总还款金额：<span>200,000.00</span></div>
-                                                        <div>已还款：<span>200,000.00</span></div>
-                                                        <div>未还款：<span>200,000.00</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-content-inner card-content-inner2" style="display: none;">
-                                                <!--已经还款的列表-->
-                                                <table class="loan-info-table loan-state-yes">
-                                                    <thead>
-                                                        <tr>
-                                                            <th class="loan-info-thead">期数</th>
-                                                            <th class="loan-info-thead">本息（元）</th>
-                                                            <th class="loan-info-thead">状态</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr class="loan-info-tbody">
-                                                            <td>1/9</td>
-                                                            <td class="loan-money">20,000.00+30.00</td>
-                                                            <td class="loan-state">已还款</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                                <!--待还款的列表-->
-                                                <table class="loan-info-table loan-state-none">
-                                                    <thead>
-                                                    <tr>
-                                                        <th class="loan-info-thead">期数</th>
-                                                        <th class="loan-info-thead">本息（元）</th>
-                                                        <th class="loan-info-thead">状态</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr class="loan-info-tbody">
-                                                        <td>2/9</td>
-                                                        <td class="loan-money">20,000.00+30.00</td>
-                                                        <td class="loan-state">待还款</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                                <div class="look-loan-cont">
-                                                    <a href="">查看借款合同</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="arrow-bottom"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 已还清借款 -->
-                                <div id="tab2" class="tab">
-                                    <div class="card loan-info">
-                                        <div class="card-content">
-                                            <div class="card-content-inner">
-                                                <div class="loan-time">借款日期：<span>2015-09-10</span></div>
-                                                <div class="loan-name"><i class="icon-jia"></i>家金宝2号zz15111000003</div>
-                                                <div class="loan-already">
-                                                    <div class="loan-already-left">
-                                                        <div class="loan-period"><em>1</em>&nbsp;/&nbsp;<em>9</em></div>
-                                                        <div>已还款期数&nbsp;/&nbsp;总期数</div>
-                                                    </div>
-                                                    <div class="loan-already-right">
-                                                        <div>总还款金额：<span>200,000.00</span></div>
-                                                        <div>已还款：<span>200,000.00</span></div>
-                                                        <div>未还款：<span>200,000.00</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-content-inner card-content-inner2" style="display: none;">
-                                                <table class="loan-info-table loan-state-yes">
-                                                    <thead>
-                                                    <tr>
-                                                        <th class="loan-info-thead">期数</th>
-                                                        <th class="loan-info-thead">本息（元）</th>
-                                                        <th class="loan-info-thead">状态</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr class="loan-info-tbody">
-                                                        <td>1/9</td>
-                                                        <td class="loan-money">20,000.00+30.00</td>
-                                                        <td class="loan-state">已还款</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                                <table class="loan-info-table loan-state-yes">
-                                                    <thead>
-                                                    <tr>
-                                                        <th class="loan-info-thead">期数</th>
-                                                        <th class="loan-info-thead">本息（元）</th>
-                                                        <th class="loan-info-thead">状态</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr class="loan-info-tbody">
-                                                        <td>2/9</td>
-                                                        <td class="loan-money">20,000.00+30.00</td>
-                                                        <td class="loan-state">已还款</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                                <div class="look-loan-cont">
-                                                    <a href="">查看借款合同</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="arrow-bottom"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--逾期中借款-->
-                                <div id="tab3" class="tab">
-                                    <div class="card loan-info">
-                                        <div class="card-content">
-                                            <div class="card-content-inner">
-                                                <div class="loan-time">借款日期：<span>2015-09-10</span></div>
-                                                <div class="loan-name"><i class="icon-jia"></i>家金宝2号zz15111000003</div>
-                                                <div class="loan-already">
-                                                    <div class="loan-already-left">
-                                                        <div class="loan-period"><em>1</em>&nbsp;/&nbsp;<em>9</em></div>
-                                                        <div>已还款期数&nbsp;/&nbsp;总期数</div>
-                                                    </div>
-                                                    <div class="loan-already-right">
-                                                        <div>总还款金额：<span>200,000.00</span></div>
-                                                        <div>已还款：<span>200,000.00</span></div>
-                                                        <div>未还款：<span>200,000.00</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-content-inner card-content-inner2" style="display: none;">
-                                                <table class="loan-info-table loan-state-overdue">
-                                                    <thead>
-                                                    <tr>
-                                                        <th class="loan-info-thead">期数</th>
-                                                        <th class="loan-info-thead">本息（元）</th>
-                                                        <th class="loan-info-thead">状态</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr class="loan-info-tbody">
-                                                        <td>1/9</td>
-                                                        <td class="loan-money">20,000.00+30.00</td>
-                                                        <td class="loan-state">逾期</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                                <table class="loan-info-table loan-state-overdue">
-                                                    <thead>
-                                                    <tr>
-                                                        <th class="loan-info-thead">期数</th>
-                                                        <th class="loan-info-thead">本息（元）</th>
-                                                        <th class="loan-info-thead">状态</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr class="loan-info-tbody">
-                                                        <td>2/9</td>
-                                                        <td class="loan-money">20,000.00+30.00</td>
-                                                        <td class="loan-state">逾期</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                                <div class="look-loan-cont">
-                                                    <a href="">查看借款合同</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="arrow-bottom"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>家金所</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--  css 文件 -->
+    <link href="css/global.css"  rel="stylesheet">
+</head>
+<body>
+<div class="global">
+    <!-- 站点视图 Page-->
+    <div class="page deal-record" id="invest_record">
+        <!-- 站点头部 Navbar-->
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+                <i class="icon-back"></i>
+            </a>
+            <h1 class="title">交易记录</h1>
+            <div class="screen">筛选</div>
+        </header>
+        <!--筛选下拉-->
+        <div class="screen-slide" style="display: none;" slide='0'>
+            <div style="position: absolute;right: 1.25rem; top: -0.6rem; border: 0.3rem solid;width: 0;height: 0;border-color: transparent transparent #e1e1e1 transparent;"></div>
+            <div class="screen-inner">
+                <div class="screen-date">
+                    <div class="screen-date-tit">时间</div>
+                    <div class="screen-date-select screen-type-item">
+                        <input placeholder="请选择日期" type="text" state='0' id="date-select" class="date-select">
+                        <label class="date-icon" for="date-select"></label>
                     </div>
+                </div>
+                <div class="screen-type">
+                    <div class="screen-date-tit">类型</div>
+                    <ul class="screen-type-item">
+                        <li><div class="screen-type-btn" state="0">充值</div></li>
+                        <li><div class="screen-type-btn" state="0">提现</div></li>
+                        <li><div class="screen-type-btn" state="0">投资</div></li>
+                        <li><div class="screen-type-btn" state="0">回款</div></li>
+                        <li><div class="screen-type-btn" state="0">流标回款</div></li>
+                        <li><div class="screen-type-btn" state="0">放款</div></li>
+                        <li><div class="screen-type-btn" state="0">还款</div></li>
+                    </ul>
+                </div>
+                <div class="self-wu-button">
+                    <a class="wu-btn self-get-btn">重置</a>
+                    <a class="wu-btn self-post-btn">完成</a>
                 </div>
             </div>
         </div>
 
-        <!-- jquery库及所引用js文件 -->
-        <script>
-//            document.addEventListener('DOMContentLoaded', function () {
-//                document.querySelector('main').className += 'loaded';
-//            });
-		</script>
-        <script type="text/javascript" src="js/zepto.js"></script>
-        <script type="text/javascript" src="js/global.js"></script>
-        <script type="text/javascript" src="js/my.js"></script>
-        <script>
-            var loanTab=$('.loan-tab-content');
-            var loanFlag=true;
-            loanTab.on('click','.card-footer',function(){
-                if (loanFlag){
-                    $(this).prev('.card-content').find('.card-content-inner2').show();
-                    $(this).children().removeClass('arrow-bottom').addClass('arrow-top');
-                    loanFlag=false;
-                }else if(!loanFlag){
-                    $(this).prev('.card-content').find('.card-content-inner2').hide();
-                    $(this).children().removeClass('arrow-top').addClass('arrow-bottom');
-                    loanFlag=true;
-                }
-            })
-        </script>
-    </body>
+        <div class="content">
+            <!--本月-->
+            <div class="content-sum-title">本月</div>
+            <ul class="deal-record-lists">
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">投资</div>
+                </li>
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">投资</div>
+                </li>
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">回款</div>
+                </li>
+            </ul>
+            <!--其他月-->
+            <div class="content-sum-title">6月</div>
+            <ul class="deal-record-lists">
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">投资</div>
+                </li>
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">投资</div>
+                </li>
+                <li class="deal-record-list">
+                    <div class="deal-record-time">
+                        <div class="record-top">周三</div>
+                        <div class="record-bottom">07-03</div>
+                    </div>
+                    <div class="deal-record-name">
+                        <div class="record-top">￥20,000.00</div>
+                        <div class="record-bottom">家金宝2号ZX1606300004</div>
+                    </div>
+                    <div class="deal-record-type">回款</div>
+                </li>
+            </ul>
+            <!--加载按钮-->
+            <div class="content-block load-button">
+                <button class="button button-block button-fill">加载更多</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jquery库及所引用js文件 -->
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+<script>
+//    筛选下拉
+    var screen=$('.screen');
+    var screenSlide=$('.screen-slide');
+    screen.click(function(){
+        if (screenSlide.attr('slide')=='0'){
+            screenSlide.show().attr('slide','1');
+        } else if(screenSlide.attr('slide')=='1'){
+            screenSlide.hide().attr('slide','0');
+            sReset();
+        }
+    });
+    var dateSelect=$('.date-select');
+    dateSelect.calendar({
+        onChange: function(){
+            dateSelect.attr('state','1');
+        }
+    });
+    var screenType=$('.screen-type');
+    var screenTypeBtn=$('.screen-type-btn');
+    var screenFlag=true;
+    screenType.on('click','.screen-type-btn',function(){
+        if ($(this).attr('state')=='0'){
+            $(this).addClass('screen-type-select').attr('state','1');
+        }else if($(this).attr('state')=='1'){
+            $(this).removeClass('screen-type-select').attr('state','0');
+        }
+    });
+    var screenReset=$('.screen-inner').find('.self-get-btn');
+//    重置函数
+    function sReset (){
+        screenTypeBtn.attr('state','0').removeClass('screen-type-select');
+        dateSelect.attr('state','0').val('');
+    }
+    screenReset.click(function(){
+        sReset();
+    });
+</script>
+</body>
 </html>

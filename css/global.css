@@ -2919,7 +2919,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .return-plane .plane-info-item{width: 100%; padding: 0 0.75rem;margin: 0;}
 
 /*8、交易记录*/
-.deal-record .screen{width: 2rem;height: 2rem;line-height: 2rem;text-align: right;color: #999;font-size: 0.7rem;float: right;}
+.deal-record .screen{width: 2rem;height: 2rem;line-height: 2rem;text-align: center;color: #999;font-size: 0.7rem;position: absolute;right: 0.5rem;}
 .deal-record .content-sum-title{color: #c8c8c8;}
 .deal-record-lists{padding: 0 0.75rem;background-color: #fff;}
 .deal-record-list{align-items: flex-end; height: 2.4rem;border-bottom: 1px solid #e1e1e1;display:flex; display: -webkit-box; display: -webkit-flex;}
@@ -2939,14 +2939,15 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .screen-type{padding: 0 0.75rem; }
 .screen-type-item{flex-wrap:wrap; display: flex; display: -webkit-box; display: -webkit-flex;}
 .screen-type-item>li{width: 25%; padding: 0.1rem 0 0.4rem;}
-.screen-type-btn{font-size: 0.6rem; width: 90%; margin: 0 auto;background-color: #f5f5f5;border-radius: 5px;height: 1.75rem;border: 0; line-height: 1.75rem;color: #666; text-align: center;}
+.screen-type-btn{box-sizing: border-box; font-size: 0.6rem; width: 92%; margin: 0 auto;background-color: #f5f5f5;position:relative;border-radius: 5px;height: 1.75rem;border: 0; line-height: 1.75rem;color: #666; text-align: center;}
+.screen-type-item .screen-type-select{line-height: 1.65rem; color: #1eaadc; background-color: #fff;border: 1px solid #1eaadc;}
+.screen-type-item .screen-type-select:before{content: '';display: inline-block;position: absolute;width: 0.9rem;height: 0.9rem;background: url(../img/screen-select.png) no-repeat center;background-size: 0.5rem;top: 0.4rem;left: 0.15rem;}
 .icon-next {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2015%2015'%3E%3Cg%3E%3Cpath%20fill%3D'%23007aff'%20d%3D'M1%2C1.6l11.8%2C5.8L1%2C13.4V1.6%20M0%2C0v15l15-7.6L0%2C0L0%2C0z'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");  }
 .icon-prev {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2015%2015'%3E%3Cg%3E%3Cpath%20fill%3D'%23007aff'%20d%3D'M14%2C1.6v11.8L2.2%2C7.6L14%2C1.6%20M15%2C0L0%2C7.6L15%2C15V0L15%2C0z'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");  }
-.icon-next,.icon-prev {display: block; width: 0.75rem;height: 0.75rem;}
-.icon {font-family: iconfont-sm!important;font-style: normal;display: inline-block;vertical-align: middle;background-size: 100% auto;background-position: center;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: .2px;-moz-osx-font-smoothing: grayscale;}
+.icon-next,.icon-prev {display: inline-block; width: 0.75rem;height: 0.75rem;}
 .screen-date-select{margin-bottom: 0.5rem;}
-.screen-date-select .date-select{border-radius: 5px; display: block; outline: none; margin: 0 auto;height: 1.75rem;width: 80%;padding: 0 0.5rem;border: 1px solid #838282;}
-
+.screen-date-select .date-select{position: relative; border-radius: 5px; display: block; outline: none; height: 1.75rem;width: 50%; text-align: center; padding: 0 0.5rem;border: 0;background-color: #f5f5f5;}
+.screen-date-select .date-icon{display: inline-block;width: 1.75rem;height: 1.75rem; margin-left: 0.15rem; background: url(../img/screen-date.png) no-repeat center; background-size: 1.25rem;}
 /*9、我的借款*/
 .total-assets-chart .center.loan-detail{padding-top: 0.5rem; display: flex;display: -webkit-box;display: -webkit-flex;}
 .loan-description{width: 50%;color: #fff;height: 1.8rem;}
@@ -2981,8 +2982,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .loan-info .card-footer>div[class^='arrow-']{margin: 0 auto;border-width: 1px;}
 .loan-info .card-footer>div.arrow-bottom{margin-top: -0.5rem;}
 .loan-info .card-footer>div.arrow-top{margin-top: 0.25rem;}
-.loan-modal~.modal .modal-title{font-size: 0.8rem;font-weight: bolder;}
-.loan-modal~.modal .modal-text{font-size: 0.6rem;color: #999;}
+
 
 
 
