@@ -2881,7 +2881,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .approve-circle-1:after{content: '身份信息';position: absolute;width: 3rem;left: -0.45rem;top: 1.8rem;}
 .approve-circle-2:after{content: '绑定银行卡';position: absolute;width: 3.6rem;left: -0.7rem;top: 1.8rem;}
 .bank-lock-icon .approve-circle-1{background: #95ccec;color: #95ccec;}
-.bank-lock-icon .approve-circle-2{background-color: #3399cc;color: #3399cc;}
+.bank-lock-icon .approve-circle-2{background-color: #46aae5;color: #46aae5;}
 .bank-lock-icon .approve-icon-inner{background: -webkit-linear-gradient(right, #46aae5 0%,#95ccec 100%);  background: linear-gradient(to left, #46aae5 0%,#95ccec 100%);}
 .approve-content .alert-text-title{position: absolute;line-height: 1rem; color: #333; text-align: center; top: 0.7rem; right: 0.5rem; width: 1rem;height: 1rem;}
 
