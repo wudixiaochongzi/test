@@ -2802,7 +2802,7 @@ animation-fill-mode: both;position: absolute; }
 .wu-income-sum{display: block; text-align: center;margin-top: -6px; position: relative; color: #fff;}
 .wu-income-sum .income-sum-num{font-size: 1.3rem;font-weight: bolder;}
 /*下*/
-.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0;display: box; display: -webkit-box;display: -moz-box; display: -webkit-flex;display: -ms-flexbox; display:flex;}
+.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0; display: -webkit-flex; display:flex;display: -webkit-box;}
 .wu-balance-all .balance-item{width:0; text-align: center;-webkit-box-flex: 1;flex: 1;}
 .balance-col{width: 1px; height: 1.2rem;background: #fff;opacity: 0.7;}
 
