@@ -2,7 +2,7 @@
 <html>
     <head lang="en">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,user-scalable=no" />
         <meta name="renderer" content="webkit|ie-comp|ie-stand">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
         <title>家金所</title>
@@ -12,166 +12,120 @@
         <!--  css 文件 -->
         <link href="css/global.css"  rel="stylesheet">
     </head>
-    <body class="wu-body">
-        <div class="my-global">
-            <!--底部导航-->
-            <nav class="bar bar-tab">
-                <a class="tab-item external web-home-item" href="1228首页.html">
-                    <span class="icon icon-selected2"></span>
-                    <span class="tab-label">精选</span>
-                </a>
-                <a class="tab-item external invest-item" href="我要理财-1231投资理财.html">
-                    <span class="icon icon-money"></span>
-                    <span class="tab-label">我要理财</span>
-                </a>
-                <a class="tab-item external loan-item" href="我要借款.html">
-                    <span class="icon icon-loan"></span>
-                    <span class="tab-label">我要借款</span>
-                </a>
-                <a class="tab-item external personal-center-item" href="个人中心.html">
-                    <i class="new-message"></i>
-                    <span class="icon icon-PersonalCenter"></span>
-                    <span class="tab-label">个人中心</span>
-                </a>
-            </nav>
-
-            <!--充值提现按钮-->
-            <div class="self-wu-button">
-                <a href="" class="wu-btn self-get-btn">提现</a>
-                <a href="" class="wu-btn self-post-btn">充值</a>
+    <body class="mhome">
+        <div class="global">
+            <!-- 左抽屉 -->
+            <div class="panel-overlay"></div>
+            <!-- Left Panel with Reveal effect -->
+            <div class="panel panel-left panel-reveal theme-dark leftmenu" id='panel-left-menu'>
+                <div class="content-block">
+                    <div class="leftmenu-innner">
+                        <div class="leftmenu-person">
+                            <!-- 未登录点击头像跳转登录页 -->
+                            <a href="我的账户.html">
+                                <p class="leftmenu-person-icon"><i class="icon icon-person"></i></p>
+                                <p class="leftmenu-person-name">Shaozhichao</p>
+                            </a>
+                        </div>
+                        <nav class="leftmenu-person-nav">
+                            <ul>
+                                <li>
+                                    <a href="首页.html" title=""><i class="icon-home"></i><span>首页</span></a>
+                                </li>
+                                <li>
+                                    <a href="我要理财.html" title=""><i class="icon-money"></i><span>我要理财</span></a>
+                                </li>
+                                <li>
+                                    <a href="我要借款.html" title=""><i class="icon-loan"></i><span>我要借款</span></a>
+                                </li>
+                                <li>
+                                    <a href="我的账户.html" title=""><i class="icon-account"></i><span>我的账户</span></a>
+                                </li>
+                                <li>
+                                    <a href="个人中心.html" title=""><i class="icon-person"></i><span>个人中心</span></a>
+                                </li>
+                                <!-- 登录后显示此项 -->
+                                <li>
+                                    <a href="登录.html" title=""><i class="icon-exit"></i><span>退出</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-
-            <!--内容区域-->
-            <div class="my-content">
-                <!--头部区域-->
-                <header class="wu-account-info">
-                    <div class="wu-my-info wu-clf">
-                        <div class="wu-my-photo"><i class="icon-photo"></i></div>
-                        <a href="个人中心-我的消息.html" class="my-messages">
-                            <i class="icon-remind"><i class="new-message"></i></i>
-                        </a>
-                        <a class="wu-user-name" href="个人中心-账户信息.html">k5844loe6698</a>
-                    </div>
-                    <a class="wu-income-sum" href="个人中心-资产明细.html">
-                        <div class="income-sum-title">总收益&nbsp;(元)</div>
-                        <div class="income-sum-num wu-num">10,000.00</div>
-                    </a>
-                    <div class="wu-balance-all">
-                        <div class="balance-item">
-                            <div>可用余额&nbsp;(元)</div>
-                            <div class="wu-num">10,000.00</div>
+            <!-- 站点视图 Page-->
+            <div class="page login" id="login">
+                <!--  页面区域 -->
+                <div class="content">
+                    <a class="button button-link button-nav pull-left back back-sp" href="#"  data-panel='#panel-left-demo' data-transition='slide-out'><i class=" icon-back"></i></a>
+                    <div class="wu-login-change">动态密码登录</div>
+                    <h1 class="logo">家金宝</h1>
+                    <!--密码登录-->
+                    <div class="login-form psw-login-form">
+                        <div class="form-group logname">
+                            <i class="icon-person"></i>
+                            <input type="text" class="" placeholder="请输入用户名/手机/邮箱" />
                         </div>
-                        <div class="balance-col"></div>
-                        <div class="balance-item">
-                            <div>总资产&nbsp;(元)</div>
-                            <div class="wu-num">10,000.00</div>
+                        <div class="form-group logpwd">
+                            <i class="icon-lock"></i>
+                            <input type="password" class="" placeholder="请输入登录密码" maxlength="18" />
                         </div>
+                        <div class="form-group verifycode">
+                            <i class="icon-vcode"></i>
+                            <input type="text" class="" placeholder="请输入验证码" maxlength="4"/>
+                            <a class="verifycode-img" href="javascript:;" title=""><img src="img/qrcode.png" alt=""></a>
+                        </div>
+                        <div class="login-forget-pwd"><a href="忘记登陆密码-输入手机号.html" title="">忘记密码?</a></div>
+                        <div class="form-group logbtn">
+                            <button class="button button-block button-big button-primary button-log" title="">登 录</button>
+                        </div>
+                        <a class="button button-big button-reg" href="注册-填写手机号.html" title="">注 册</a>
                     </div>
-                </header>
-                <!--头部区域结束-->
+                    <!--动态密码登录-->
+                    <div class="login-form actPsw-login-form" style="display: none;">
+                        <div class="form-group logname">
+                            <i class="icon-person"></i>
+                            <input type="text" class="" placeholder="请输入用户名/手机/邮箱" />
+                        </div>
+                        <div class="form-group logpwd">
+                            <i class="icon-lock"></i>
+                            <input type="text" class="" placeholder="6位动态密码" maxlength="6" />
+                            <div class="login-phone-code">获取验证码</div>
+                        </div>
 
-                <!--九宫格1-->
-                <section class="wu-my-options-1">
-                    <div class="yesterday-income">昨日收益(元)：&nbsp;<span class="yesterday-income-num wu-num">1000.00</span></div>
-                    <div class="my-options-row"></div>
-                    <div class="wu-nine-box">
-                        <a class="nine-box-list" href="">
-                            <div class="nine-box-icon iconfont">&#xe601;</div>
-                            <div class="nine-box-title">我的理财</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="">
-                            <div class="nine-box-icon iconfont">&#xe600;</div>
-                            <div class="nine-box-title">交易记录</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="">
-                            <div class="nine-box-icon iconfont">&#xe602;</div>
-                            <div class="nine-box-title">回款计划</div>
-                        </a>
+                        <div class="form-group logbtn">
+                            <button class="button button-block button-big button-primary button-log" title="">登 录</button>
+                        </div>
+                        <a class="button button-big button-reg" href="注册-填写手机号.html" title="">注 册</a>
                     </div>
-                    <div class="my-options-row"></div>
-                    <div class="wu-nine-box">
-                        <a class="nine-box-list" href="">
-                            <div class="nine-box-icon iconfont award-message">&#xe605;</div>
-                            <div class="nine-box-title">有奖推荐</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="">
-                            <div class="nine-box-icon iconfont">&#xe60b;
-                                <div class="ticket-num"><span>2</span>张</div>
-                            </div>
-                            <div class="nine-box-title">优惠券</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="">
-                            <div class="my-remind event-new"></div>
-                            <div class="nine-box-icon iconfont">&#xe603;</div>
-                            <div class="nine-box-title">活动</div>
-                        </a>
+                    <div class="announcement">
+                        <p><i class=""></i>帐户资金由兴业银行存管，360度风险保障<br>截止目前，本息回款100%，准时到账100%</p>
                     </div>
-                    <div class="my-options-row"></div>
-                    <div class="wu-nine-box">
-                        <a class="nine-box-list" href="">
-                            <div class="my-remind card-none"></div>
-                            <div class="nine-box-icon iconfont" style="font-size: 20px;">&#xe606;</div>
-                            <div class="nine-box-title">我的银行卡</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="">
-                            <div class="my-remind deal-psw"></div>
-                            <div class="nine-box-icon iconfont">&#xe607;</div>
-                            <div class="nine-box-title">交易密码</div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="帮助.html">
-                            <div class="nine-box-icon iconfont">&#xe60a;</div>
-                            <div class="nine-box-title">帮助</div>
-                        </a>
-                    </div>
-                </section>
-                <!--九宫格1结束-->
-
-                <!--九宫格2-->
-                <section class="wu-my-options-2">
-                    <div class="wu-nine-box">
-                        <a class="nine-box-list" href="" style="padding-left: 0.75rem;">
-                            <div class="nine-box-icon iconfont">&#xe609;</div>
-                            <div class="nine-box-title">
-                                <div>负债资产</div>
-                                <div style="color: #929292">1000.00</div>
-                            </div>
-                        </a>
-                        <div class="my-options-col"></div>
-                        <a class="nine-box-list" href="" style="padding-left: 0.75rem;">
-                            <div class="nine-box-icon iconfont">&#xe604;</div>
-                            <div class="nine-box-title">还款计划</div>
-                        </a>
-                    </div>
-                </section>
-                <!--九宫格2结束    -->
-
-                <!--底部安全保障说明-->
-                <footer class="footer">
-                    <p><i class="icon icon-safetytips"></i>帐户资金由兴业银行存管，<br>截止目前，本息回款100%，准时到账100%</p>
-                </footer>
-                <!--底部结束-->
+                </div>
             </div>
         </div>
-
-    <!-- jquery库及所引用js文件 -->
+		<div class="modal modal-in" style="display: none; margin-top: -87px;"><div class="modal-inner"><div class="modal-text">提示信息：用户名或密码输入错误，您还可以尝试3次，超过5次将被锁定。</div></div><div class="modal-buttons "><span class="modal-button modal-button-bold">忘记密码</span><span class="modal-button modal-button-bold">确定</span></div></div>
+        <!-- jquery库及所引用js文件 -->
         <script type="text/javascript" src="js/zepto.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
         <script type="text/javascript" src="js/my.js"></script>
         <script>
-            $(function () {
-                $(".personal-center-item .icon").removeClass("icon-PersonalCenter").addClass("icon-PersonalCenter2");
-            });
-        </script>
-        <script type="text/javascript">
-            $(".close").click(function(){
-              $(".ads").hide();
-            });
+            $(function(){
+                var loginChange=$(".wu-login-change");
+                var pswLogin=$('.psw-login-form');
+                var actPswLogin=$('.actPsw-login-form');
+                loginChange.click(function(){
+                    if (loginChange.text()=='动态密码登录'){
+                        pswLogin.css('display','none');
+                        actPswLogin.css('display','block');
+                        loginChange.text('密码登录');
+                    }else if(loginChange.text()=='密码登录'){
+                        pswLogin.css('display','block');
+                        actPswLogin.css('display','none');
+                        loginChange.text('动态密码登录');
+                    }
+                })
+            })
         </script>
     </body>
 </html>
