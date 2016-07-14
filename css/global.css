@@ -2123,7 +2123,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
-.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;}
+.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.8rem;height: 1.2rem}
 .login .form-group input::-webkit-input-placeholder {color:#fff; }
 .login .form-group input::-moz-placeholder { color:#fff;}
 .login .form-group input::-moz-placeholder {color:#fff;}
@@ -2827,7 +2827,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-my-options-2 .nine-box-icon{display: inline-block;vertical-align: top;font-size: 18px;}
 .wu-my-options-2 .nine-box-list .nine-box-title{display: inline-block; margin-left: 0.3rem; padding-top: 0.2rem;vertical-align: top;}
 /*充值提现按钮*/
-.self-wu-button{display:flex; display: -webkit-box; display: -webkit-flex;justify-content: center; -webkit-box-pack: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
+.self-wu-button{display: -webkit-flex; display:flex;display: -webkit-box;justify-content: center; -webkit-box-pack: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
 .wu-btn{display: block; width: 38%; text-align: center;border-radius: 5px;line-height: 1.85rem;margin: 0 0.5rem;}
 .wu-btn.self-get-btn{border: 1px solid #999; color: #999;}
 .wu-btn.self-post-btn{background-color: #ff9900;color: #fff;}
@@ -2895,10 +2895,10 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .self-plane .timeline-point{left: 16%;}
 .self-plane .timeline-arrow{left: 15%;}
 .self-plane .timeline-inner{width: 82%; padding: 0.3rem 0.4rem;}
-.plane-info-top{position: relative; align-items: center;-webkit-box-align: center;display:flex; display: -webkit-box; display: -webkit-flex;}
+.plane-info-top{position: relative; align-items: center;-webkit-box-align: center;display: -webkit-flex; display:flex;display: -webkit-box;}
 .plane-info-item{width: 80%;margin-right: 0.6rem;}
 .plane-info-item span[class^='plane-item-']{font-size: 0.7rem;line-height: 1.25rem;display: block;}
-.plane-info-item>div{display:flex; display: -webkit-box;display: -webkit-flex;}
+.plane-info-item>div{display: -webkit-flex; display:flex; display: -webkit-box;}
 .plane-info-item>div:nth-child(1){border-bottom: 1px dashed #e1e1e1;}
 .plane-item-title{color: #63686A;width: 35%;}
 .plane-item-num1,.plane-item-num2{width: 65%;text-align: right;}
@@ -2923,7 +2923,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .deal-record .screen{width: 2rem;height: 2rem;line-height: 2rem;text-align: center;color: #999;font-size: 0.7rem;position: absolute;right: 0.5rem;z-index: 9999;}
 .deal-record .content-sum-title{color: #c8c8c8;}
 .deal-record-lists{padding: 0 0.75rem;background-color: #fff;}
-.deal-record-list{align-items: flex-end; height: 2.4rem;border-bottom: 1px solid #e1e1e1;display:flex; display: -webkit-box; display: -webkit-flex;}
+.deal-record-list{align-items: flex-end; height: 2.4rem;border-bottom: 1px solid #e1e1e1;display: -webkit-flex; display:flex;display: -webkit-box;}
 .deal-record-list:last-child{border: 0;}
 .deal-record-time{color: #c8c8c8;width: 16%;text-align: center;}
 .deal-record-list .record-top{height: 1.2rem;line-height: 1.5rem;}
