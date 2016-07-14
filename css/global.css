@@ -888,7 +888,7 @@ input.modal-text-input.modal-text-input-double+input.modal-text-input{margin-top
 .login-screen.modal-in,.popup.modal-in{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 .login-screen.modal-out,.popup.modal-out{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}
 .login-screen.modal-in,.login-screen.modal-out{display:block}
-html.with-statusbar-overlay .popup{top:1rem;height:-webkit-calc(100% -1rem);height:-webkit-calc(100% - 1rem);height:calc(100% - 1rem)}
+html.with-statusbar-overlay .popup{top:1rem;height:-webkit-calc(100% - 1rem);height:calc(100% - 1rem);}
 html.with-statusbar-overlay .popup-overlay{z-index:9800}
 @media all and (max-width:629px),(max-height:629px){html.with-statusbar-overlay .popup{top:1rem;height:-webkit-calc(100% - 1rem);height:calc(100% - 1rem)}
     html.with-statusbar-overlay .popup-overlay{z-index:9800}
@@ -1049,7 +1049,7 @@ body.panel-closing .page{-webkit-transition:400ms;-o-transition:400ms;transition
 .picker-item{position:relative;top:0;left:0;width:100%;height:36px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 10px;overflow:hidden;line-height:36px;color:#999;text-overflow:ellipsis;white-space:nowrap;-webkit-transition:300ms;-o-transition:300ms;transition:300ms}
 .picker-items-col-absolute .picker-item{position:absolute}
 .picker-item.picker-item-far{pointer-events:none}
-.picker-item.picker-selected{color:#3d4145;-webkit-transform:translate3d(0,0,0);-webkit-transform:rotateX(0);transform:translate3d(0,0,0);transform:rotateX(0)}
+.picker-item.picker-selected{color:#3d4145;-webkit-transform:translate3d(0,0,0);-webkit-transform:rotateX(0deg);transform:translate3d(0,0,0);transform:rotateX(0deg)}
 .picker-center-highlight{position:absolute;top:50%;left:0;width:100%;height:36px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-top:-18px;pointer-events:none}
 .picker-center-highlight:before{position:absolute;top:0;right:auto;bottom:auto;left:0;z-index:15;display:block;width:100%;height:1px;content:'';background-color:#a8abb0;-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;-o-transform-origin:50% 0;transform-origin:50% 0}
 @media only screen and (-webkit-min-device-pixel-ratio:2){.picker-center-highlight:before{-webkit-transform:scaleY(.5);-ms-transform:scaleY(.5);-o-transform:scaleY(.5);transform:scaleY(.5)}
@@ -1635,7 +1635,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .invest-record .records-money-label {display: block; width: 40%; text-align: left; }
 .invest-record .records-user-value,
 .invest-record .records-money-value {display: block; width: 60%; text-align: right; }
-.invest-record .timeline-arrow { position: absolute; bottom: -10px; left: 26%; margin-left: -7px; width: 15px; height: 13px;  background: url(../img/timeline-arrow.png) 0 0 no-repeat;}
+.invest-record .timeline-arrow { position: absolute; bottom: -10px; left: 28%; margin-left: -7px; width: 15px; height: 13px;  background: url(../img/timeline-arrow.png) 0 0 no-repeat;}
 .bar-nav~.content.invest-record-content {background-color: #f0f0f0;}
 .invest-record .invest-record-content .load-button .button.button-fill{height: 2rem;background-color: #17a7e8;}
 /* 暂无数据显示 */
@@ -2073,7 +2073,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 /* 绑定银行卡失败 */
 .failure .status-content .status-hint i {background-position: 0 -5.8rem;}
 .failure .status-content span.failure-msg-title,
-.failure .status-content span.failure-msg {padding: 0;font-size: .45rem;word-break: break-word;}
+.failure .status-content span.failure-msg {padding: 0;font-size: .45rem;word-wrap: break-word;}
 .failure .status-content span.failure-msg-title {color: #fb8996;}
 /* 解绑银行卡成功 */
 .unwrap-bankcard-success .status-content .status-hint i {background-position: -.1rem -11.8rem;}
@@ -2808,7 +2808,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-my-options-1 .yesterday-income{color: #666; height: 1.2rem;padding: 0 0.6rem;font-size: 0.55rem;line-height: 1.2rem;}
 .wu-my-options-1 .yesterday-income .yesterday-income-num{color: #ff9900;font-size: 0.65rem;vertical-align: middle;}
 .wu-nine-box{display:flex; display: -webkit-box; display: -webkit-flex;}
-.wu-nine-box .nine-box-list{ overflow: hidden; position: relative; width:0; padding-top: 0.5rem;padding-bottom: 0.5rem; flex: 1; -webkit-box-flex: 1; display: block; color: #666;}
+.wu-nine-box .nine-box-list{overflow: hidden; position: relative; width:0; padding-top: 0.65rem;padding-bottom: 0.6rem; flex: 1; -webkit-box-flex: 1; display: block; color: #666;}
 
 .my-remind{position: absolute; top: 0; right: 0; background:url(../images/my-remind.png)  no-repeat;background-size:29px 88px}
 .event-new{height:29px;width:29px;background-position:0 0;}
@@ -2987,21 +2987,9 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .loan-info .card-footer>div[class^='arrow-']{margin: 0 auto;border-width: 1px;}
 .loan-info .card-footer>div.arrow-bottom{margin-top: -0.5rem;}
 .loan-info .card-footer>div.arrow-top{margin-top: 0.25rem;}
+.loan-details .total-assets-chart .grid .grid-label{font-size:0.6rem;}
 
-@font-face {font-family: "iconfont";
-    src: url('../fonts/iconfont.eot?t=1468399432'); /* IE9*/
-    src: url('../fonts/iconfont.eot?t=1468399432#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/iconfont.woff?t=1468399432') format('woff'), /* chrome, firefox */
-    url('../fonts/iconfont.ttf?t=1468399432') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../fonts/iconfont.svg?t=1468399432#iconfont') format('svg'); /* iOS 4.1- */
-}
-.iconfont {
-    font-family:"iconfont" !important;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    /*-webkit-text-stroke-width: 0.2px;*/
-    -moz-osx-font-smoothing: grayscale;
-}
-.nine-box-icon1{height: 26px;line-height: 26px; margin: 0 auto;text-align: center;font-size: 22px;color: #17a7e8;}
+
+
 
 
