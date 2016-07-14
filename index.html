@@ -2,7 +2,7 @@
 <html>
     <head lang="en">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,user-scalable=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
         <meta name="renderer" content="webkit|ie-comp|ie-stand">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
         <title>家金所</title>
@@ -12,120 +12,104 @@
         <!--  css 文件 -->
         <link href="css/global.css"  rel="stylesheet">
     </head>
-    <body class="mhome">
+    <body>
         <div class="global">
-            <!-- 左抽屉 -->
-            <div class="panel-overlay"></div>
-            <!-- Left Panel with Reveal effect -->
-            <div class="panel panel-left panel-reveal theme-dark leftmenu" id='panel-left-menu'>
-                <div class="content-block">
-                    <div class="leftmenu-innner">
-                        <div class="leftmenu-person">
-                            <!-- 未登录点击头像跳转登录页 -->
-                            <a href="我的账户.html">
-                                <p class="leftmenu-person-icon"><i class="icon icon-person"></i></p>
-                                <p class="leftmenu-person-name">Shaozhichao</p>
-                            </a>
-                        </div>
-                        <nav class="leftmenu-person-nav">
-                            <ul>
-                                <li>
-                                    <a href="首页.html" title=""><i class="icon-home"></i><span>首页</span></a>
-                                </li>
-                                <li>
-                                    <a href="我要理财.html" title=""><i class="icon-money"></i><span>我要理财</span></a>
-                                </li>
-                                <li>
-                                    <a href="我要借款.html" title=""><i class="icon-loan"></i><span>我要借款</span></a>
-                                </li>
-                                <li>
-                                    <a href="我的账户.html" title=""><i class="icon-account"></i><span>我的账户</span></a>
-                                </li>
-                                <li>
-                                    <a href="个人中心.html" title=""><i class="icon-person"></i><span>个人中心</span></a>
-                                </li>
-                                <!-- 登录后显示此项 -->
-                                <li>
-                                    <a href="登录.html" title=""><i class="icon-exit"></i><span>退出</span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
             <!-- 站点视图 Page-->
-            <div class="page login" id="login">
-                <!--  页面区域 -->
+            <div class="page card-manage" id="card-manage">
+                <!-- 站点头部 Navbar-->
+                 <header class="bar bar-nav">
+                    <a class="button button-link button-nav pull-left back" href="#"  data-panel='#panel-left-demo' data-transition='slide-out'><i class=" icon-back"></i></a>
+                    <h1 class="title">绑定银行卡</h1>
+                </header>
+                <!--页面区域-->
                 <div class="content">
-                    <a class="button button-link button-nav pull-left back back-sp" href="#"  data-panel='#panel-left-demo' data-transition='slide-out'><i class=" icon-back"></i></a>
-                    <div class="wu-login-change">动态密码登录</div>
-                    <h1 class="logo">家金宝</h1>
-                    <!--密码登录-->
-                    <div class="login-form psw-login-form">
-                        <div class="form-group logname">
-                            <i class="icon-person"></i>
-                            <input type="text" class="" placeholder="请输入用户名/手机/邮箱" />
+                    <!--页面头部图标部分-->
+                    <div class="approve-icon bank-lock-icon">
+                        <div class="approve-icon-out">
+                            <div class="approve-icon-inner"></div>
+                            <div class="approve-circle-1 icon-PersonalCenter"></div>
+                            <div class="approve-circle-2"></div>
                         </div>
-                        <div class="form-group logpwd">
-                            <i class="icon-lock"></i>
-                            <input type="password" class="" placeholder="请输入登录密码" maxlength="18" />
-                        </div>
-                        <div class="form-group verifycode">
-                            <i class="icon-vcode"></i>
-                            <input type="text" class="" placeholder="请输入验证码" maxlength="4"/>
-                            <a class="verifycode-img" href="javascript:;" title=""><img src="img/qrcode.png" alt=""></a>
-                        </div>
-                        <div class="login-forget-pwd"><a href="忘记登陆密码-输入手机号.html" title="">忘记密码?</a></div>
-                        <div class="form-group logbtn">
-                            <button class="button button-block button-big button-primary button-log" title="">登 录</button>
-                        </div>
-                        <a class="button button-big button-reg" href="注册-填写手机号.html" title="">注 册</a>
                     </div>
-                    <!--动态密码登录-->
-                    <div class="login-form actPsw-login-form" style="display: none;">
-                        <div class="form-group logname">
-                            <i class="icon-person"></i>
-                            <input type="text" class="" placeholder="请输入用户名/手机/邮箱" />
-                        </div>
-                        <div class="form-group logpwd">
-                            <i class="icon-lock"></i>
-                            <input type="text" class="" placeholder="6位动态密码" maxlength="6" />
-                            <div class="login-phone-code">获取验证码</div>
-                        </div>
+                    <div style="font-size: 0.6rem; text-align: center;">为了您的资金安全，请确认您填写的资料真实有效</div>
 
-                        <div class="form-group logbtn">
-                            <button class="button button-block button-big button-primary button-log" title="">登 录</button>
-                        </div>
-                        <a class="button button-big button-reg" href="注册-填写手机号.html" title="">注 册</a>
+                    <div class="list-block approve-content">
+                        <ul>
+                            <li>
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">银行卡号</div>
+                                        <div class="item-input">
+                                            <input type="text" placeholder="请输入银行卡号">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">预留手机</div>
+                                        <div class="item-input">
+                                            <input type="email" placeholder="请输入账户柜台预留手机号">
+                                        </div>
+                                        <a href="#" class="assist alert-text-title">？</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            <a href="" class="item-link item-content">
+                                <div class="item-inner">
+                                    <div class="item-title label">开户银行</div>
+                                    <div class="item-input">
+                                        <input type="email" placeholder="请选择开户银行">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                            <li>
+                                <a href="" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">开户城市</div>
+                                        <div class="item-input">
+                                            <input type="email" placeholder="请选择开户城市">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">开户网点</div>
+                                        <div class="item-input">
+                                            <input type="email" placeholder="请选择开户网点">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="announcement">
-                        <p><i class=""></i>帐户资金由兴业银行存管，360度风险保障<br>截止目前，本息回款100%，准时到账100%</p>
+
+                    <div class="content-block bank-description">
+                        <a href="11银行限额说明.html">支持银行说明</a>
+                        <a href="12银行维护说明.html">维护中银行说明</a>
+                    </div>
+
+                    <div class="content-block wu-container-btn">
+                        <p><a href="#" class="button button-big">绑定</a></p>
                     </div>
                 </div>
             </div>
         </div>
-		<div class="modal modal-in" style="display: none; margin-top: -87px;"><div class="modal-inner"><div class="modal-text">提示信息：用户名或密码输入错误，您还可以尝试3次，超过5次将被锁定。</div></div><div class="modal-buttons "><span class="modal-button modal-button-bold">忘记密码</span><span class="modal-button modal-button-bold">确定</span></div></div>
+        <div class="loan-modal"></div>
         <!-- jquery库及所引用js文件 -->
         <script type="text/javascript" src="js/zepto.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
         <script type="text/javascript" src="js/my.js"></script>
         <script>
-            $(function(){
-                var loginChange=$(".wu-login-change");
-                var pswLogin=$('.psw-login-form');
-                var actPswLogin=$('.actPsw-login-form');
-                loginChange.click(function(){
-                    if (loginChange.text()=='动态密码登录'){
-                        pswLogin.css('display','none');
-                        actPswLogin.css('display','block');
-                        loginChange.text('密码登录');
-                    }else if(loginChange.text()=='密码登录'){
-                        pswLogin.css('display','block');
-                        actPswLogin.css('display','none');
-                        loginChange.text('动态密码登录');
-                    }
-                })
-            })
+            $(document).on('click','.assist', function () {
+                $.alert('银行预留手机号是办理该银行卡时所填写的手机号。如没有预留、手机号已停用、或者忘记，请到银行柜台办理。','预留手机号说明');
+                $('.loan-modal').nextAll('.modal').find('.modal-button').text('我知道了');
+            });
         </script>
     </body>
 </html>
