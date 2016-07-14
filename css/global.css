@@ -54,10 +54,6 @@ button[disabled],html input[disabled]{cursor:default}
 .disabled, [disabled] {  opacity: .6;  pointer-events: none;  }
 button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
 input{line-height:normal;}
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    vertical-align: middle;
-}
 input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
 input[type=search]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}
@@ -2123,7 +2119,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
-.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.8rem;height: 1.2rem}
+.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.8rem;line-height: 1rem;}
 .login .form-group input::-webkit-input-placeholder {color:#fff; }
 .login .form-group input::-moz-placeholder { color:#fff;}
 .login .form-group input::-moz-placeholder {color:#fff;}
