@@ -2867,22 +2867,22 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .list-block.approve-content .item-inner{margin-left: 0; min-height: 2.5rem;}
 .list-block.approve-content .item-title{color: #333;}
 .list-block.approve-content .item-title.label{width: 28%;}
-.content-block.wu-container-btn{width: 100%; position: absolute;bottom: 0;}
+.content-block.wu-container-btn{width: 100%; margin-top:2rem;}
 .content-block.wu-container-btn .button{background: #FF8A34;border: 0;border-radius: 5px;}
 .bank-description{margin-top: -0.25rem;}
 .bank-description>a {display: inline-block;padding: 3px;color: #3F7AD2;font-size: 12px;text-decoration: underline;}
 .approve-icon{padding: 1.1rem 0 2rem;}
 .approve-icon-out{box-sizing: border-box; width: 9.25rem;height: 1.6rem;position: relative;margin: 0 auto;padding: 0.625rem 0;}
-.approve-icon-inner{width: 100%;height: 100%;background: -webkit-linear-gradient(left, #3399cc 0%,#96c8e1 100%);  background: linear-gradient(to right, #3399cc 0%,#96c8e1 100%);}
+.approve-icon-inner{width: 100%;height: 100%;background: -webkit-linear-gradient(left, #46aae5 0%,#95ccec 100%);  background: linear-gradient(to right, #46aae5 0%,#95ccec 100%);}
 .approve-icon-out>div[class^='approve-circle-']{font-size: 0.6rem; position: absolute;width: 1.6rem; height: 1.6rem;border-radius: 50%;top: 0;}
-.approve-circle-1{left: 0;background: #3399cc;color: #3399cc;}
-.approve-circle-2{right: 0;color: #96C8E1;background-color:#96C8E1; background-image: url(../img/bankCard-icon.png); background-position: center;background-repeat: no-repeat; background-size: 1rem;}
+.approve-circle-1{left: 0;background: #46aae5;color: #46aae5;}
+.approve-circle-2{right: 0;color: #95ccec;background-color:#95ccec; background-image: url(../img/bankCard-icon.png); background-position: center;background-repeat: no-repeat; background-size: 1rem;}
 .approve-circle-1.icon-PersonalCenter:before{padding-left: 1px; font-size: 0.95rem; color: #fff; display: block;width: 1.6rem;height: 1.6rem;line-height: 1.6rem;text-align: center;}
 .approve-circle-1:after{content: '身份信息';position: absolute;width: 3rem;left: -0.45rem;top: 1.8rem;}
 .approve-circle-2:after{content: '绑定银行卡';position: absolute;width: 3.6rem;left: -0.7rem;top: 1.8rem;}
-.bank-lock-icon .approve-circle-1{background: #96C8E1;color: #96C8E1;}
+.bank-lock-icon .approve-circle-1{background: #95ccec;color: #95ccec;}
 .bank-lock-icon .approve-circle-2{background-color: #3399cc;color: #3399cc;}
-.bank-lock-icon .approve-icon-inner{background: -webkit-linear-gradient(right, #3399cc 0%,#96c8e1 100%);  background: linear-gradient(to left, #3399cc 0%,#96c8e1 100%);}
+.bank-lock-icon .approve-icon-inner{background: -webkit-linear-gradient(right, #46aae5 0%,#95ccec 100%);  background: linear-gradient(to left, #46aae5 0%,#95ccec 100%);}
 .approve-content .alert-text-title{position: absolute;line-height: 1rem; color: #333; text-align: center; top: 0.7rem; right: 0.5rem; width: 1rem;height: 1rem;}
 
 /*6、回款计划*/
