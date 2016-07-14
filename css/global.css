@@ -2829,7 +2829,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .nine-icon-5{height:25px;width:25px;background-position:0 -225px;}
 .nine-icon-4{height:25px;width:25px;background-position:0 -250px;}
 .nine-icon-4.award-message:after{content: "";display: block;position: absolute;top: -10%; right: -30%; width: 0.4rem;height: 0.4rem;background-color: #ff6600;border-radius: 50%;}
-.nine-icon-5 .ticket-num{border-radius:5px; right: -1.6rem; top: -0.35rem; padding: 0 3px; position: absolute; height: 14px; line-height: 15px; border: 1px solid #ff6600;text-align: center; color: #ff6600; font-size: 10px;}
+.nine-icon-5 .ticket-num{border-radius:7px; right: -1.6rem; top: -0.35rem; padding: 0 3px; position: absolute; height: 14px; line-height: 14px; border: 1px solid #ff6600;text-align: center; color: #ff6600; font-size: 10px;}
 /*充值提现按钮*/
 .self-wu-button{display:flex; display: -webkit-box; display: -webkit-flex;justify-content: center; -webkit-box-pack: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
 .wu-btn{display: block; width: 38%; text-align: center;border-radius: 5px;line-height: 1.85rem;margin: 0 0.5rem;}
@@ -2987,7 +2987,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .loan-info .card-footer>div[class^='arrow-']{margin: 0 auto;border-width: 1px;}
 .loan-info .card-footer>div.arrow-bottom{margin-top: -0.5rem;}
 .loan-info .card-footer>div.arrow-top{margin-top: 0.25rem;}
-.loan-details .total-assets-chart .grid .grid-label{font-size:0.6rem;}
+.loan-detail .total-assets-chart .grid .grid-label{font-size:0.6rem;}
 
 
 
