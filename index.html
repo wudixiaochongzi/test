@@ -278,9 +278,17 @@
                $.closeModal('.popup-about2');
             });
         });
-        $('input[placeholder="请输入金额"]').focus(function(){
-            $('.wu-ensure-buy').css('position','absolute');
-        })
+
+        var oHeight = $(document).height(); //浏览器当前的高度
+        $('.invest-product-detail-page').resize(function(){
+            if($(document).height() < oHeight){
+                $(".wu-ensure-buy").css("display","none");
+            }else{
+
+                $(".wu-ensure-buy").css("display","block");
+            }
+
+        });
     });
 </script>
 </body>
