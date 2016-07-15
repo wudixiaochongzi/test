@@ -1751,7 +1751,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .purchase-finance .bankcard-msg .un-bind .icon-bankcard01 {position: absolute;color: #a9a8a8;left: 2rem;top: 1.4rem;font-size: 1.4rem;opacity: 0.5;}
 .purchase-finance .bankcard-msg .un-bind p {font-size: .8rem;color: #a9a8a8;opacity: 0.5;}
 .purchase-finance .bankcard-msg .un-bind .gotos-bind {position: absolute;right: 2.8rem;top: 1.6rem;font-size: .7rem;}
-.purchase-finance .bankcard-msg .un-bind .state-link {position: relative;margin-top: 2.5rem;border-top: 1px solid #cee6f4;}
+.purchase-finance .bankcard-msg .un-bind .state-link {overflow: hidden; position: relative;margin-top: 2.5rem;border-top: 1px solid #cee6f4;}
 .purchase-finance .bankcard-msg .un-bind .state-link a:nth-of-type(1) {position: absolute;left: 2rem;top: .5rem;color: #999;}
 .purchase-finance .bankcard-msg .un-bind .state-link a:nth-of-type(2) {position: absolute;right: 2rem;top: .5rem;color: #999;}
 .purchase-finance .bankcard-msg .bank-card-inner.un-bind:after {height: 1.2rem;left: -1rem;bottom: -1.3rem;width: 108%;box-shadow: 0 -14px 24px -4px rgba(0,0,1,.15);-webkit-box-shadow: 0 -14px 24px -4px rgba(0,0,1,.15);-moz-box-shadow: 0 -14px 24px -4px rgba(0,0,1,.15);border-top: 1px solid #fff;}
@@ -2498,12 +2498,12 @@ animation-fill-mode: both;position: absolute; }
 .coupon-sum .item-content{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding-left:.75rem;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
 .coupon-sum .item-link .item-inner{ padding-right:1.5rem;background-image: url(../img/i-list-chevron-right.png);background-position: calc(100% - .5rem) center;background-repeat: no-repeat;background-size: .7rem;position: relative;display: flex;display: -webkit-box; width: 100%;box-sizing: border-box;padding-top: .4rem;    padding-bottom: .35rem;-webkit-box-flex: 1;}
 .coupon-sum .item-link .item-inner.no-link{ background:none;}
-.coupon-sum .item-link .item-inner.no-link .item-text{right:.8rem;}
+.coupon-sum .item-link .item-inner.no-link .item-text{right:.8rem;top: 0.4rem;}
 .coupon-sum .item-link .item-inner em{ font-style:normal;}
 .coupon-sum .item-title.label{font-size: inherit; margin: 6px 0;flex-shrink: 0;vertical-align: top;position: relative;max-width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #333; height:18px;}
 .coupon-sum .item-title.padl24{ padding-left:2.4em;}
 .coupon-sum .item-title.label i{ position: relative; top:1px; margin-right:4px;}
-.coupon-sum .item-text{ color:#999; font-size:.6rem;margin: 4px 0px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;position: absolute;right: 3em;}
+.coupon-sum .item-text{ color:#999; font-size:.6rem;margin: 6px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;position: absolute;right: 3em;}
 .coupon-sum .item-text.orange{ color:#fa7249;}
 .coupon-sum-bg{background-color:#f0f3f5;position: relative;}
 .coupon-sum-bg2{background-color:#ffffff;position: relative;}
@@ -2837,7 +2837,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bank-info{display: inline-block;vertical-align: middle;color: #333;}
 .bank-info .bank-info-name{font-size: inherit;}
 .bank-info .bank-info-end{font-size: 0.55rem;color: #b4b4b4;}
-.wu-ensure-buy{height: 5rem; background-color: #fff;position: fixed;bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
+.wu-ensure-buy{height: 5rem; background-color: #fff;position: fixed;z-index: 10000; bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
 .wu-model-agreement{margin-bottom: 5.2rem; margin-top: 0.75rem;}
 .wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;}
 .wu-ensure-buy .final-pay-box>div[class^='final-pay-']{height: 50%;}
