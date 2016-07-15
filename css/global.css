@@ -2119,7 +2119,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
-.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;height: 22px;}
+.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;}
 .login .form-group input::-webkit-input-placeholder {color:#fff;}
 .login .form-group input::-moz-placeholder { color:#fff;}
 .login .form-group input::-moz-placeholder {color:#fff;}
