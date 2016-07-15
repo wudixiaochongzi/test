@@ -2119,7 +2119,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
 .login .form-group.logbtn{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
-.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;line-height: 22px;height: 22px;}
+.login .form-group input{ vertical-align: middle; width: calc(100% - 2rem); margin-left: 10px; border: 0; background: transparent; color: #fff; font-size:.9rem;height: 22px;}
 .login .form-group input::-webkit-input-placeholder {color:#fff;}
 .login .form-group input::-moz-placeholder { color:#fff;}
 .login .form-group input::-moz-placeholder {color:#fff;}
@@ -2852,7 +2852,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 
 /*3、登录*/
 .wu-login-change{position: absolute;right: 0;color: #fff;height: 2rem;line-height: 2rem;padding-right: 0.75rem;}
-.login .actPsw-login-form .logpwd>input{width: calc(100% - 8rem);}
+.login .actPsw-login-form .logpwd>input{width: calc(100% - 7.5rem);}
 .login-phone-code{float: right; margin-top: -0.2rem; border-radius: 5px; display: inline-block; line-height: 1.3rem;background-color: #7ECAEB;padding: 0 0.5rem;}
 
 /*4、银行卡管理*/
