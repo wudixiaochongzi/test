@@ -2876,14 +2876,14 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .approve-icon-inner{width: 100%;height: 100%;background: -webkit-linear-gradient(left, #46aae5 0%,#95ccec 100%);  background: linear-gradient(to right, #46aae5 0%,#95ccec 100%);}
 .approve-icon-out>div[class^='approve-circle-']{font-size: 0.6rem; position: absolute;width: 1.6rem; height: 1.6rem;border-radius: 50%;top: 0;}
 .approve-circle-1{left: 0;background: #46aae5;color: #46aae5;}
-.approve-circle-2{right: 0;color: #95ccec;background-color:#95ccec; background-image: url(../img/bankCard-icon.png); background-position: center;background-repeat: no-repeat; background-size: 1rem;}
+.approve-circle-2{right: -1px;color: #95ccec;background-color:#95ccec; background-image: url(../img/bankCard-icon.png); background-position: center;background-repeat: no-repeat; background-size: 1rem;}
 .approve-circle-1.icon-PersonalCenter:before{padding-left: 1px; font-size: 0.95rem; color: #fff; display: block;width: 1.6rem;height: 1.6rem;line-height: 1.6rem;text-align: center;}
 .approve-circle-1:after{content: '身份信息';position: absolute;width: 3rem;left: -0.45rem;top: 1.8rem;}
 .approve-circle-2:after{content: '绑定银行卡';position: absolute;width: 3.6rem;left: -0.7rem;top: 1.8rem;}
 .bank-lock-icon .approve-circle-1{background: #95ccec;color: #95ccec;}
 .bank-lock-icon .approve-circle-2{background-color: #46aae5;color: #46aae5;}
 .bank-lock-icon .approve-icon-inner{background: -webkit-linear-gradient(right, #46aae5 0%,#95ccec 100%);  background: linear-gradient(to left, #46aae5 0%,#95ccec 100%);}
-.approve-content .alert-text-title{position: absolute;line-height: 1rem; color: #333; text-align: center; top: 0.7rem; right: 0.5rem; width: 1rem;height: 1rem;}
+.approve-content .alert-text-title{position: absolute;line-height: 1rem; color: #333; text-align: center; top: 0.7rem; right: 0.5rem; width: 1rem;height: 1rem;font-size: 0.9rem;}
 
 /*6、回款计划*/
 .self-plane .timeline-time {width: 15%;}
