@@ -280,7 +280,7 @@
         });
 
         var oHeight = $(document).height(); //浏览器当前的高度
-        $('.invest-product-detail-page').resize(function(){
+        $(window).resize(function(){
             if($(document).height() < oHeight){
                 $(".wu-ensure-buy").css("display","none");
             }else{
