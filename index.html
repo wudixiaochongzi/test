@@ -272,7 +272,8 @@
             });
         });
         $("input[placeholder='请输入金额']").focus(function(){
-            $('.purchase-finance').scrollTop(500);
+            var a=$('#my_modal2').scrollTop();
+            $('.purchase-finance').scrollTop(a);
             $('.wu-ensure-buy').css('display','none');
         })
     });
