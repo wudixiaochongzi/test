@@ -278,19 +278,9 @@
                $.closeModal('.popup-about2');
             });
         });
-        var oHeight = $(document).height(); //浏览器当前的高度
-
-        $(window).resize(function(){
-
-            if($(document).height() < oHeight){
-                alert(1);
-                $(".wu-ensure-buy").css("position","absolute");
-            }else{
-
-                $(".wu-ensure-buy").css("position","fixed");
-            }
-
-        });
+        $('input[placeholder="请输入金额"]').focus(function(){
+            $('.wu-ensure-buy').css('position','absolute');
+        })
     });
 </script>
 </body>
