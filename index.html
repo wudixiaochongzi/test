@@ -19,12 +19,12 @@
                 <!-- 站点头部 Navbar-->
                  <header class="bar bar-nav">
                     <a class="button button-link button-nav pull-left back" href="#"  data-panel='#panel-left-demo' data-transition='slide-out'><i class=" icon-back"></i></a>
-                    <h1 class="title">绑定银行卡</h1>
+                    <h1 class="title">实名认证</h1>
                 </header>
                 <!--页面区域-->
                 <div class="content">
                     <!--页面头部图标部分-->
-                    <div class="approve-icon bank-lock-icon">
+                    <div class="approve-icon">
                         <div class="approve-icon-out">
                             <div class="approve-icon-inner"></div>
                             <div class="approve-circle-1 icon-PersonalCenter"></div>
@@ -32,15 +32,14 @@
                         </div>
                     </div>
                     <div style="font-size: 0.6rem; text-align: center;">为了您的资金安全，请确认您填写的资料真实有效</div>
-
                     <div class="list-block approve-content">
                         <ul>
                             <li>
                                 <div class="item-content">
                                     <div class="item-inner">
-                                        <div class="item-title label">银行卡号</div>
+                                        <div class="item-title label">真实姓名</div>
                                         <div class="item-input">
-                                            <input type="text" placeholder="请输入银行卡号">
+                                            <input type="text" placeholder="请输入持卡人姓名">
                                         </div>
                                     </div>
                                 </div>
@@ -48,68 +47,26 @@
                             <li>
                                 <div class="item-content">
                                     <div class="item-inner">
-                                        <div class="item-title label">预留手机</div>
+                                        <div class="item-title label">身份证号</div>
                                         <div class="item-input">
-                                            <input type="email" placeholder="请输入账户柜台预留手机号">
+                                            <input type="email" placeholder="请输入身份证号">
                                         </div>
-                                        <a href="#" class="assist alert-text-title iconfont">&#xe60a;</a>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
-                            <a href="" class="item-link item-content">
-                                <div class="item-inner">
-                                    <div class="item-title label">开户银行</div>
-                                    <div class="item-input">
-                                        <input type="email" placeholder="请选择开户银行">
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                            <li>
-                                <a href="" class="item-link item-content">
-                                    <div class="item-inner">
-                                        <div class="item-title label">开户城市</div>
-                                        <div class="item-input">
-                                            <input type="email" placeholder="请选择开户城市">
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="item-link item-content">
-                                    <div class="item-inner">
-                                        <div class="item-title label">开户网点</div>
-                                        <div class="item-input">
-                                            <input type="email" placeholder="请选择开户网点">
-                                        </div>
-                                    </div>
-                                </a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="content-block bank-description">
-                        <a href="11银行限额说明.html">支持银行说明</a>
-                        <a href="12银行维护说明.html">维护中银行说明</a>
-                    </div>
-
                     <div class="content-block wu-container-btn">
-                        <p><a href="#" class="button button-big">绑定</a></p>
+                        <p><a href="#" class="button button-big">下一步</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="loan-modal"></div>
+
         <!-- jquery库及所引用js文件 -->
         <script type="text/javascript" src="js/zepto.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
         <script type="text/javascript" src="js/my.js"></script>
-        <script>
-            $(document).on('click','.assist', function () {
-                $.alert('银行预留手机号是办理该银行卡时所填写的手机号。如没有预留、手机号已停用、或者忘记，请到银行柜台办理。','预留手机号说明');
-                $('.loan-modal').nextAll('.modal').find('.modal-button').text('我知道了');
-            });
-        </script>
     </body>
 </html>
