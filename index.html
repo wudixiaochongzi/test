@@ -68,7 +68,7 @@
                     <div class="wu-clf">
                         <div class="change-amount">
                             <a href="javascript:;">-</a>
-                            <span><input type="text" value="1000" class="change-amount-input"><em>元</em></span>
+                            <span><input type="text" value="1000" class="change-amount-input" onfocus="this.select()"><em>元</em></span>
                             <a href="javascript:;">+</a>
                         </div>
                     </div>
@@ -115,22 +115,23 @@
             $.alert('转让手续费 = 剩余本金 × 服务费率<br>（现平台服务费率0.1%）');
             $('.loan-modal').nextAll('.modal').find('.modal-button').text('我知道了');
         });
-        $.fn.selectRange = function(start, end) {
-            return this.each(function() {
-                if (this.setSelectionRange) {
-                    this.focus();
-                    this.setSelectionRange(start, end);
-                } else if (this.createTextRange) {
-                    var range = this.createTextRange();
-                    range.collapse(true);
-                    range.moveEnd('character', end);
-                    range.moveStart('character', start);
-                    range.select();
-                }
-            });
-        };
+//        $.fn.selectRange = function(start, end) {
+//            return this.each(function() {
+//                if (this.setSelectionRange) {
+//                    this.focus();
+//                    this.setSelectionRange(start, end);
+//                } else if (this.createTextRange) {
+//                    var range = this.createTextRange();
+//                    range.collapse(true);
+//                    range.moveEnd('character', end);
+//                    range.moveStart('character', start);
+//                    range.select();
+//                }
+//            });
+//        };
         var changeAmountInput=$('.change-amount-input');
-        changeAmountInput.selectRange(0,15);
+//        changeAmountInput.selectRange(0,15);
+        changeAmountInput.focus();
     })
 </script>
 </body>
