@@ -2775,7 +2775,7 @@ animation-fill-mode: both;position: absolute; }
         6、回款计划
         7、还款计划
 */
-.wu-flex{display: flex;display: -webkit-flex; display: -webkit-box;-webkit-flex-wrap: wrap;flex-wrap: wrap;}
+.wu-flex{display: -webkit-flex; display: -webkit-box;display: flex;-webkit-flex-wrap: wrap;flex-wrap: wrap;}
 @font-face {font-family: "iconfont";src: url('../fonts/iconfont.eot?t=1468399432');src: url('../fonts/iconfont.eot?t=1468399432#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff?t=1468399432') format('woff'), url('../fonts/iconfont.ttf?t=1468399432') format('truetype'),url('../fonts/iconfont.svg?t=1468399432#iconfont') format('svg');}
 .iconfont {font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 /* 1、个人中心 */
