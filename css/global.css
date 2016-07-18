@@ -1661,7 +1661,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 	.invest-matters-bd .product-list-box .list-box .product-msg .raise{  color:#fff6ab; font-size:.7rem; display:inline-block;}
 		}
 .invest-product-detail .ipdp-expected-earnings p {margin: 0;color: #FFF;font-size: .6rem;margin-top: -.4rem;margin-bottom: 0;}
-.invest-product-detail .ipdp-expected-earnings .label2{font-size: .8rem;margin-top: .4rem;}
+.invest-product-detail .ipdp-expected-earnings .label2{font-size: .7rem;margin-top: 0.2rem; width: 100%;text-align: center;}
 .invest-product-detail .ipdp-expected-earnings .label2 span{font-size: .8rem;}
 .invest-product-detail .gradient-head .bind-state {color: #FFF;font-size: .6rem;text-align: center;margin-bottom: 1rem;}
 .invest-product-detail .gradient-head .bind-state i {position: static;float: none;vertical-align: middle;margin-right: .3rem;background: url(../img/invest-state-icon.png) no-repeat;background-size: .6rem;}
@@ -1721,7 +1721,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .model-agreement span a {color: #fb8996;}
 .model-agreement input {width: .72rem;height: .72rem;margin-right: .2rem;vertical-align: text-bottom;}
     /* 我要理财-确认购买 */
-.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para {width: 50%;text-align: center;float: left;}
+.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para {width: 50%;text-align: center;}
 .purchase-finance .gradient-head .ipdp-expected-earnings .invest-earnings {/*border-right: 1px solid #FFF;*/}
 .purchase-finance .gradient-head .ipdp-expected-earnings .invest-earnings:after {position: absolute;top: 40%;left: 50%;content: "";display: block;width: 1px;height: 3rem;border-right: 1px solid #FFF;}
 .purchase-finance .ipdp-expected-earnings .invest-deadline span,
@@ -2774,6 +2774,7 @@ animation-fill-mode: both;position: absolute; }
         6、回款计划
         7、还款计划
 */
+.wu-flex{display: -webkit-flex;display: -webkit-box;display: flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;}
 @font-face {font-family: "iconfont";src: url('../fonts/iconfont.eot?t=1468399432');src: url('../fonts/iconfont.eot?t=1468399432#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff?t=1468399432') format('woff'), url('../fonts/iconfont.ttf?t=1468399432') format('truetype'),url('../fonts/iconfont.svg?t=1468399432#iconfont') format('svg');}
 .iconfont {font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 /* 1、个人中心 */
