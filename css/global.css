@@ -2987,7 +2987,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .charge-explain{color: #333;}
 .charge-explain-icon{vertical-align: middle;font-size: 0.7rem;position: relative; top: -1px; margin-left: 0.25rem;}
 ::selection{
-    color: #fff;
+    /*color: #fff;*/
     background: #64D1FF;
 }
 
