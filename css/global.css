@@ -2708,7 +2708,7 @@ animation-fill-mode: both;position: absolute; }
 .invest-matters-bd .product-list-box .list-box .product-title-zqzr{ font-size:.6rem;}
 		}
 .purchase-finance .invest-product-detail .finance-sum-zqzr {height:6rem;}
-.purchase-finance .invest-product-detail .finance-sum-zqzr b{ margin: 0;color: #999;font-size: .6rem; font-weight:normal; position:absolute; bottom:.5rem;}
+.purchase-finance .invest-product-detail .finance-sum-zqzr b{display:block; margin: 0;color: #999;font-size: .6rem; font-weight:normal; position:absolute; bottom:.5rem;}
 .purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-zqzr{margin-top: 1.5rem;}
 .purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-zqzr p{ margin-top:0;}
 .ipdp-expected-earnings .invest-para-zqzr span.value em{font-size: 1.0rem;}
