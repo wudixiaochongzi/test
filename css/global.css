@@ -2707,11 +2707,11 @@ animation-fill-mode: both;position: absolute; }
 /*ip 4s5s*/@media screen and (min-width:320px) and (max-height:569px){
 .invest-matters-bd .product-list-box .list-box .product-title-zqzr{ font-size:.6rem;}
 		}
-.purchase-finance .invest-product-detail .finance-sum-zqzr {height:5.25rem;}
-.purchase-finance .invest-product-detail .finance-sum-zqzr b{display:block; margin: 0;color: #999;font-size: .6rem; font-weight:normal; position:absolute; bottom:.25rem;}
-.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-zqzr{margin-top: 1.5rem;}
-.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-zqzr p{ margin-top:0;}
-.ipdp-expected-earnings .invest-para-zqzr span.value em{font-size: 1.0rem;}
+.purchase-finance .invest-product-detail .finance-sum-zqzr b{margin-top: 0.25rem; display:block;color: #999;font-size: .6rem; font-weight:normal;}
+.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-wu{}
+.purchase-finance .gradient-head .ipdp-expected-earnings .invest-para-wu p{ margin-top:0;}
+.ipdp-expected-earnings .invest-para-wu span.value em{font-size: 1.0rem;}
+.invest-product-detail .invest-para .value{display: block;line-height: 3.25rem;}
 .inform-sp img{ width:100%;}
 .xieyi-tab{ width:100%; margin:.5em 0em;}
 .xieyi-tab td{ border:1px solid #ddd; padding:.5em;}
