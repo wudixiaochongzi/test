@@ -2799,7 +2799,7 @@ animation-fill-mode: both;position: absolute; }
 .wu-income-sum{display: block; text-align: center;margin-top: -6px; position: relative; color: #fff;}
 .wu-income-sum .income-sum-num{font-size: 1.3rem;font-weight: bolder;}
 /*下*/
-.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0;display: -webkit-box;display: flex;}
+.wu-balance-all{align-items: center;-webkit-box-align: center; padding: 0.4rem 0;display: -webkit-flex; display: -webkit-box;display: flex;}
 .wu-balance-all .balance-item{width:0; text-align: center;-webkit-box-flex: 1;flex: 1;}
 .balance-col{width: 1px; height: 1.2rem;background: #fff;opacity: 0.7;}
 
@@ -2935,7 +2935,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .screen-slide .screen-date{padding: 0 0.75rem; border-bottom: 1px solid #ccc;}
 .screen-date-tit{font-size: 0.6rem;color: #838282;padding: 0.5rem 0;}
 .screen-type{padding: 0 0.75rem; }
-.screen-type-item{-webkit-flex-wrap:wrap;flex-wrap:wrap; display: -webkit-box;display: flex;display: -webkit-flex;}
+.screen-type-item{-webkit-flex-wrap:wrap;flex-wrap:wrap;display: -webkit-flex; display: -webkit-box;display: flex;}
 .screen-type-item>li{width: 25%; padding: 0.1rem 0 0.4rem;}
 .screen-type-btn{box-sizing: border-box; font-size: 0.6rem; width: 92%; margin: 0 auto;background-color: #f5f5f5;position:relative;border-radius: 5px;height: 1.75rem;border: 0; line-height: 1.75rem;color: #666; text-align: center;}
 .screen-type-item .screen-type-select{line-height: 1.65rem; color: #1eaadc; background-color: #fff;border: 1px solid #1eaadc;}
