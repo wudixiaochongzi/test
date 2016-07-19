@@ -655,7 +655,6 @@ html:not(.watch-active-state) label.label-checkbox:active .item-inner:after,labe
 .bar .searchbar .search-input input{border:0}
 .bar .searchbar .searchbar-cancel{color:#5f646e}
 input[type=button].button,input[type=submit].button{width:100%}
-.button:active{}
 .button.button-primary{color:#fff;background-color:#ff8a34;border-color:#ff8a34;}
 .button.button-primary:active,
 .button.button-primary:hover{color:#fff;background-color:#f3651f; border-color:#f3651f}
@@ -666,8 +665,8 @@ input[type=button].button,input[type=submit].button{width:100%}
 .button.active,.button.active:active{color:#f3651f;border-color:#f3651f}
 .button.button-red{color:#fff;background-color:#e14838;border-color:#e14838;}
 .button.button-big{height:2.4rem;font-size:.9rem;line-height:2.3rem}
-.button.button-fill{line-height:1.35rem;color:#fff;background:#ff8a34;border:none}
-.button.button-fill.active,.button.button-fill:active{background:#f3651f}
+.button.button-fill{line-height:1.35rem;color:#fff;background:#46aae5;border:none}
+.button.button-fill.active,.button.button-fill:active{background:#1C9BE5}
 .button.button-fill.button-big{line-height:2.4rem}
 .button.button-block { width: 100%; }
 .button .button-link{padding-top:.3rem;padding-bottom:.3rem;color:#0894ec;background-color:transparent;border:0}
@@ -2828,7 +2827,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .self-wu-button{display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
 .wu-btn{display: block; width: 38%; text-align: center;border-radius: 5px;line-height: 1.85rem;margin: 0 0.5rem;}
 .wu-btn.self-get-btn{border: 1px solid #999; color: #999;}
-.wu-btn.self-post-btn{background-color: #ff9900;color: #fff;}
+.wu-btn.self-post-btn{background-color: #46aae5;color: #fff;}
 /*2、我要理财-确认购买*/
 .exp-income{padding: 0.35rem 0;}
 .exp-income .exp-income-num{color: #ff9900;font-weight: bold;}
@@ -2863,14 +2862,17 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bankCode-manage .bankCode-name{height: 70%;padding: 0.75rem 0.75rem 0;}
 .bankCode-order-info.list-block .item-title{color: #333;}
 .bankCode-order-info.list-block .item-inner{min-height: 2.5rem;}
-.self-wu-button.bank-manage-btn{position: absolute;bottom: 0.5rem;background: none;border: none;}
+.self-wu-button.bank-manage-btn{position: static;background: none;border: none;}
 
 /*5、实名认证*/
 .list-block.approve-content .item-inner{margin-left: 0; min-height: 2.5rem;}
 .list-block.approve-content .item-title{color: #333;}
 .list-block.approve-content .item-title.label{width: 28%;}
-.content-block.wu-container-btn{width: 100%; margin-top:2rem;}
-.content-block.wu-container-btn .button{background: #FF8A34;border: 0;border-radius: 5px;}
+.wu-btn-box{width: 100%;}
+.wu-container-btn{padding: 0;position: fixed;bottom: 0;}
+.wu-margin-btn{padding: 0 0.75rem;margin: .5rem 0;}
+.wu-container-btn.wu-btn-box .button{border-radius: 0!important;}
+.wu-btn-box .button{background: #46aae5;border: 0;border-radius: 5px;}
 .bank-description{margin-top: -0.25rem;}
 .bank-description>a {display: inline-block;padding: 3px;color: #3F7AD2;font-size: 12px;text-decoration: underline;}
 .approve-icon{padding: 1.1rem 0 2rem;}
@@ -2984,10 +2986,21 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .loan-detail .total-assets-chart .grid .grid-label{font-size:0.6rem;}
 .no-loan>img{display: block; margin: 0 auto;}
 .no-loan-explain{font-size: 0.6rem;color: #333;text-align: center;}
+.loan-info-tbody>td:nth-of-type(1){width: 12%;}
+.loan-info-tbody>td:nth-of-type(2){width: 60%;}
+.loan-info-tbody>td:nth-of-type(3){width: 28%;}
 
 /*债权转让*/
 .charge-explain{color: #333;}
 .charge-explain-icon{vertical-align: middle;font-size: 0.7rem;position: relative; top: -1px; margin-left: 0.25rem;}
+
+/*更换银行卡*/
+.list-block.card-order{margin-top: 0;}
+.list-block.card-order .item-title{color: #333;}
+.list-block.card-order .item-after{color:#969da0}
+.list-block.card-order ul:before{background-color: #fff;}
+
+
 
 
 
