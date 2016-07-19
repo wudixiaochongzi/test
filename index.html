@@ -78,7 +78,7 @@
                     <li>
                         <div class="item-link item-content">
                             <div class="item-inner no-link">
-                                <div class="item-title label"><a href="javascript:;" class="alert-text charge-explain"><i class="icon-direction"></i>转让手续费<span class="iconfont charge-explain-icon">&#xe60a;</span></a></div>
+                                <div class="item-title label"><a href="#" class="alert-text charge-explain"><i class="icon-direction"></i>转让手续费<span class="iconfont charge-explain-icon">&#xe60a;</span></a></div>
                                 <div class="item-text orange"><em id="interest">-20.00</em><em>元</em></div>
                             </div>
                         </div>
@@ -114,6 +114,8 @@
         $(document).on('click','.charge-explain', function () {
             $.alert('转让手续费 = 剩余本金 × 服务费率<br>（现平台服务费率0.1%）');
             $('.loan-modal').nextAll('.modal').find('.modal-button').text('我知道了');
+            var modal=$('.modal');
+            modal.css('marginTop','0');
         });
         var changeAmountInput=$('.change-amount-input');
         changeAmountInput.selectRange(0,15);
