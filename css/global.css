@@ -1856,7 +1856,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 /* 底部菜单选中 */
 .invest-matters-page .invest-item,
 .loan-product-info .loan-item,
-.my-global .personal-center-item {color: #ff933c;}
+.my-global .personal-center-item {color: #46aae5;}
 
 .invest-matters-sec .invest-matters-hd .product-modules li span {font-size: .6rem;padding-top: .3rem;}
 .invest-matters-sec .invest-matters-hd .invest-matters-intro {margin: 1rem 1.8rem;padding: .35rem 0;background-color: #59cdf7;font-size: .6rem;border-radius: 40px;text-align: center;}
@@ -2925,13 +2925,13 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .deal-record-lists{padding: 0 0.5rem;background-color: #fff;}
 .deal-record-list{align-items: flex-end; height: 2.4rem;border-bottom: 1px solid #e1e1e1;display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
 .deal-record-list:last-child{border: 0;}
-.deal-record-time{color: #c8c8c8;width: 16%;text-align: center;}
-.deal-record-list .record-top{height: 1.2rem;line-height: 1.5rem;}
+.deal-record-time{color: #c8c8c8;width: 13%;text-align: center;font-size: 0.6rem;}
+.deal-record-list .record-top{height: 1.2rem;line-height: 1.65rem;}
 .deal-record-list .record-bottom{height: 1.2rem;line-height: 1.2rem;}
-.deal-record-name{width: 66%;padding-left: 0.5rem;}
+.deal-record-name{width: 68%;padding-left: 0.5rem;}
 .deal-record-name .record-top{color: #ff9900;}
 .deal-record-name .record-bottom{font-size: 0.6rem;}
-.deal-record-type{height: 1.2rem;color: #c8c8c8;width: 18%;text-align: center;line-height: 1.2rem;}
+.deal-record-type{height: 1.2rem;color: #c8c8c8;width: 19%;text-align: center;line-height: 1.2rem;}
 .screen-slide{width: 100%;height: calc(100% - 2rem);position: absolute;top: 2rem;background: rgba(0,0,0,0.5);z-index: 99999;}
 .screen-slide .screen-inner{background-color: #fff;}
 .screen-slide .self-wu-button{position: static;border: 0;}
