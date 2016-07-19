@@ -2928,10 +2928,10 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .deal-record-time{color: #c8c8c8;width: 16%;text-align: center;}
 .deal-record-list .record-top{height: 1.2rem;line-height: 1.5rem;}
 .deal-record-list .record-bottom{height: 1.2rem;line-height: 1.2rem;}
-.deal-record-name{width: 70%;padding-left: 0.5rem;}
+.deal-record-name{width: 66%;padding-left: 0.5rem;}
 .deal-record-name .record-top{color: #ff9900;}
 .deal-record-name .record-bottom{font-size: 0.6rem;}
-.deal-record-type{height: 1.2rem;color: #c8c8c8;}
+.deal-record-type{height: 1.2rem;color: #c8c8c8;width: 18%;text-align: center;line-height: 1.2rem;}
 .screen-slide{width: 100%;height: calc(100% - 2rem);position: absolute;top: 2rem;background: rgba(0,0,0,0.5);z-index: 99999;}
 .screen-slide .screen-inner{background-color: #fff;}
 .screen-slide .self-wu-button{position: static;border: 0;}
