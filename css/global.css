@@ -2922,13 +2922,13 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 /*8、交易记录*/
 .deal-record .screen{width: 2rem;height: 2rem;line-height: 2rem;text-align: center;color: #999;font-size: 0.7rem;position: absolute;right: 0.5rem;z-index: 9999;}
 .deal-record .content-sum-title{color: #c8c8c8;}
-.deal-record-lists{padding: 0 0.75rem;background-color: #fff;}
+.deal-record-lists{padding: 0 0.5rem;background-color: #fff;}
 .deal-record-list{align-items: flex-end; height: 2.4rem;border-bottom: 1px solid #e1e1e1;display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
 .deal-record-list:last-child{border: 0;}
 .deal-record-time{color: #c8c8c8;width: 16%;text-align: center;}
 .deal-record-list .record-top{height: 1.2rem;line-height: 1.5rem;}
 .deal-record-list .record-bottom{height: 1.2rem;line-height: 1.2rem;}
-.deal-record-name{width: 70%;padding-left: 1rem;}
+.deal-record-name{width: 70%;padding-left: 0.5rem;}
 .deal-record-name .record-top{color: #ff9900;}
 .deal-record-name .record-bottom{font-size: 0.6rem;}
 .deal-record-type{height: 1.2rem;color: #c8c8c8;}
