@@ -2827,7 +2827,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .self-wu-button{display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;background: #fff;width:100%;height: 3.25rem;padding: 0.7rem 0;position: fixed;bottom: 2.5rem;z-index: 1001;border-top: 1px solid #e1e1e1;}
 .wu-btn{display: block; width: 38%; text-align: center;border-radius: 5px;line-height: 1.85rem;margin: 0 0.5rem;}
 .wu-btn.self-get-btn{border: 1px solid #999; color: #999;}
-.wu-btn.self-post-btn{background-color: #46aae5;color: #fff;}
+.wu-btn.self-post-btn{background-color: #ff9900;color: #fff;}
 /*2、我要理财-确认购买*/
 .exp-income{padding: 0.35rem 0;}
 .exp-income .exp-income-num{color: #ff9900;font-weight: bold;}
@@ -2846,7 +2846,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-ensure-buy .final-pay-box .final-pay-list2{font-size: 0.6rem;line-height: 1.35rem;color: #b4b4b4;}
 .wu-ensure-buy .final-pay-box .final-pay{color: #ff9900;}
 .wu-ensure-buy .final-pay-box .save-money{font-size: 0.6rem;color: #999;}
-.final-pay-submit{display: block;width: 100%;height: 2.5rem;background-color: #ff9900;border-radius: 0;}
+.final-pay-submit{border: 0; display: block;width: 100%;height: 2.5rem;background-color: #ff9900;border-radius: 0;}
 .final-pay-submit>span{display:block; width: 100%;}
 .final-pay-submit>span:nth-child(1){line-height: 1.8; height: 60%;font-size: 0.9rem;}
 .final-pay-submit>span:nth-child(2){line-height: 1; height: 40%;font-size: 0.6rem;opacity: 0.8;}
