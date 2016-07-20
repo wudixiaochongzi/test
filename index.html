@@ -17,16 +17,6 @@
 <div class="global">
     <!-- 站点视图 Page-->
     <div id="invest-product-detail" class="page invest-product-detail-page experience-bind-bankcard-code">
-        <!--确认购买-->
-        <div class="wu-ensure-buy">
-            <div class="final-pay-box">
-                <div class="final-pay-list1">实付金额：<span class="final-pay">￥<em>1000.00</em></span><span class="save-money">（已省￥<em>300</em>）</span></div>
-                <div class="final-pay-list2">
-                    账户余额：￥<em>20,233.00</em>&nbsp;&nbsp;&nbsp;<a href="" style="color: #0099ff;text-decoration: underline;">充值</a>
-                </div>
-            </div>
-            <button id="purchase_submit_button" class="button final-pay-submit"><span>确定购买</span><span>申购人数：24人（剩余<em>432,000.00</em>元）</span></button>
-        </div>
         <div class="content purchase-finance">
             <!--  页面区域 -->
             <section class="invest-product-detail">
@@ -115,7 +105,16 @@
             </section>
             <div class="model-agreement wu-model-agreement"><input type="checkbox" checked><span>已同意并阅读<em><a href="javascript:;">《借款合同范本》</a></em><em><a href="javascript:;">《理财服务协议范本》</a></em></span></div>
 
-
+            <!--确认购买-->
+            <div class="wu-ensure-buy">
+                <div class="final-pay-box">
+                    <div class="final-pay-list1">实付金额：<span class="final-pay">￥<em>1000.00</em></span><span class="save-money">（已省￥<em>300</em>）</span></div>
+                    <div class="final-pay-list2">
+                        账户余额：￥<em>20,233.00</em>&nbsp;&nbsp;&nbsp;<a href="" style="color: #0099ff;text-decoration: underline;">充值</a>
+                    </div>
+                </div>
+                <button id="purchase_submit_button" class="button final-pay-submit"><span>确定购买</span><span>申购人数：24人（剩余<em>432,000.00</em>元）</span></button>
+            </div>
         </div>
     </div>
 <!----------------------优惠券弹层---------------------------------->
@@ -272,6 +271,9 @@
                $.closeModal('.popup-about');
             });
         });
+        $(window).resize(function(){
+            $('.wu-ensure-buy').css('position','static');
+        })
     });
 </script>
 </body>
