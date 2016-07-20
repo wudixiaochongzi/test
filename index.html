@@ -271,8 +271,14 @@
                $.closeModal('.popup-about');
             });
         });
+        var oHeight = $(document).height();
         $(window).resize(function(){
-            $('.wu-ensure-buy').css('position','static');
+            var oHeightNew=$(document).height();
+            if (oHeightNew<oHeight){
+                $('.wu-ensure-buy').css('position','static');
+            }else{
+                $('.wu-ensure-buy').css('position','fixed');
+            }
         })
     });
 </script>
