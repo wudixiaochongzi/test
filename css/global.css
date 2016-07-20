@@ -1776,22 +1776,18 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 
 
 
-.modal-in .payment-box {position: relative;padding-top: 12px;height: 9.6rem;margin: 0 auto;}
+.modal-in .payment-box {position: relative;padding-top: 12px;height: 7rem;margin: 0 auto;}
 .modal-in .payment-box div {margin: 0 16px 0 16px;}
 .modal-in .payment-box div:nth-of-type(1){border-bottom:1px solid #dcdcdc;}
 .modal-in .payment-box div:nth-of-type(1) i {position: absolute;right: 1rem;display: inline-block;width: .8rem;height: .8rem;/*border: 1px solid red;*/}
 .modal-in .payment-box div:nth-of-type(2){text-align: center;font-size: 1rem;color: #fb9b34;border-bottom:1px solid #dcdcdc;height: 3.5rem;line-height: 3.5rem;}
-.modal-in .payment-box div:nth-of-type(3) {position: relative;font-size: .6rem;height: 2.4rem;line-height: 2.4rem;border-bottom:1px solid #dcdcdc;text-align: left;}
-.modal-in .payment-box div:nth-of-type(3) i {display: inline-block;width: 1rem;height: 1rem;color: #FFF;margin-right: .5rem;background-color: #fb9b34;border-radius: 50%;padding: .2rem;}
-.modal-in .payment-box div:nth-of-type(3) span {margin-left: 1.2rem;}
-.modal-in .payment-box div:nth-of-type(3) .top-up-link {position: absolute;right: 0;}
 
-.modal-in .payment-box div:nth-of-type(4) {position: relative;margin: .75rem 0 0 0;text-align: center;}
-.modal-in .payment-box div:nth-of-type(4) input {position: absolute;left: 110px;width: 100px;height: 35px;margin-left: -140%;border: 1px solid red;color: #FFF;z-index: -1;}
-.modal-in .payment-box div:nth-of-type(4) .password-box {display: inline-block;width: 212px;height: 35px;padding: 0;border: 1px solid #dcdcdc;}
-.modal-in .payment-box div:nth-of-type(4) .password-box span {display: inline-block;width: 35px;height: 35px;border-right: 1px solid #dcdcdc;}
-.modal-in .payment-box div:nth-of-type(4) .password-box span.init-status {background: url("../img/password-box-dot.png") no-repeat center;background-size: 10px;}
-.modal-in .payment-box div:nth-of-type(4) .password-box span:nth-of-type(6) {border-right: none;}
+.modal-in .payment-box div:nth-of-type(3) {position: relative;margin: .75rem 0 0 0;text-align: center;}
+.modal-in .payment-box div:nth-of-type(3) input {position: absolute;left: 110px;width: 100px;height: 35px;margin-left: -140%;border: 1px solid red;color: #FFF;z-index: -1;}
+.modal-in .payment-box div:nth-of-type(3) .password-box {display: inline-block;width: 212px;height: 35px;padding: 0;border: 1px solid #dcdcdc;}
+.modal-in .payment-box div:nth-of-type(3) .password-box span {display: inline-block;width: 35px;height: 35px;border-right: 1px solid #dcdcdc;}
+.modal-in .payment-box div:nth-of-type(3) .password-box span.init-status {background: url("../img/password-box-dot.png") no-repeat center;background-size: 10px;}
+.modal-in .payment-box div:nth-of-type(3) .password-box span:nth-of-type(6) {border-right: none;}
 /*.modal-in .payment-box div:nth-of-type(4) .inner-box {position: absolute;top: 0rem;width: 10rem;height: 1.5rem;padding: 0;z-index: 1;!*columns:20px;*!display: -webkit-box;!*-webkit-box-orient: horizontal;*!}
 .modal-in .payment-box div:nth-of-type(4) .inner-box span {width: 1.68rem;height: 1.5rem;display:inline-block;border-right: 1px solid #dcdcdc;!*-webkit-box-flex: 1;*!}*/
 /*.modal.modal-no-buttons.modal-in {margin-top: -9rem !important;}!* ---------- *!*/
