@@ -3011,9 +3011,10 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .event-lists .card-content-inner{padding: 0 0.5rem 0.25rem;}
 .event-lists .event-list-img{height: 8rem; display: block;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .event-lists .event-description{margin-top: 0.25rem;font-size: 0.6rem;color: #999;}
-.event-lists .card-footer>a{color: #5d5d5d;}
+.event-lists .card-footer{color: #5d5d5d;display: block;}
 .event-lists .card-footer .look-now-icon{position: absolute;right: 0.5rem;}
 .event-lists .card{border-radius: 5px;}
+.event-lists .card-footer:before{width: 94%;right: 0;left: 0;margin: 0 auto;}
 
 
 
