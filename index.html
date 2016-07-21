@@ -44,9 +44,7 @@
         <script type="text/javascript" src="js/my.js"></script>
         <script>
             $(document).on('click','.service-tel', function () {
-                $.confirm('400-083-3699', function () {
-
-                });
+                $.confirm('400-083-3699',function(){window.location.href='tel:15601642617';});
                 $('.modal').css('marginTop','0');
                 var mt=$('.modal-text');
                 var mBtnR=$('.modal-button-bold');
