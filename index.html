@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <meta name="renderer" content="webkit|ie-comp|ie-stand">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <title>家金所</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!--  css 文件 -->
+        <link href="css/global.css"  rel="stylesheet">
+    </head>
+    <body class="mhome">
+        <div class="global">
+            <!-- 站点视图 Page-->
+            <div class="page customer-service" id="customer-service">
+
+                <!-- 站点头部 Navbar-->
+                 <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+                <i class="icon-back"></i>
+            </a>
+            <h1 class="title">帮助</h1>
+        </header>
+                <div class="content">
+                    <!--  页面区域 -->
+                    <div class="service-box">
+                        <ul class="menu-list">
+                            <li><a class="" href="常见问题.html"><i class="icon-problem"></i><p>常见问题</p></a></li>
+                            <li><a class="" href="关于家金所.html"><i class="icon-about"></i><p>关于我们</p></a></li>
+                            <li><a class="service-tel" href="#"><i class="icon-service"></i><p>客服热线</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 站点底部 -->
+            </div>
+        </div>
+
+        <!-- jquery库及所引用js文件 -->
+        <script type="text/javascript" src="js/zepto.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/my.js"></script>
+        <script>
+            $(document).on('click','.service-tel', function () {
+                $.confirm('400-083-3699', function () {
+
+                });
+                $('.modal').css('marginTop','0');
+                var mt=$('.modal-text');
+                var mBtnR=$('.modal-button-bold');
+                mt.css({'fontSize':'0.9rem'});
+                mBtnR.html('<a href="tel:400-083-3699" style="display: block;">呼叫</a>');
+            });
+        </script>
+    </body>
+</html>
