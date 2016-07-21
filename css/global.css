@@ -2848,7 +2848,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 /*3、登录*/
 .wu-login-change{position: absolute;right: 0;color: #fff;height: 2rem;line-height: 2rem;padding-right: 0.75rem;}
 .login .actPsw-login-form .logpwd>input{width: calc(100% - 7.5rem);}
-.login-phone-code{float: right; margin-top: -0.2rem; border-radius: 5px; display: inline-block; line-height: 1.3rem;background-color: #7ECAEB;padding: 0 0.5rem;}
+.login-phone-code{float: right; margin-top: -0.2rem; border-radius: 5px; display: inline-block; line-height: 1.5rem;background-color: #7ECAEB;padding: 0 0.5rem;}
 
 /*4、银行卡管理*/
 .bankCode-manage{height: 5rem; border-radius: 5px;background-color: #fff;overflow: hidden;}
