@@ -74,7 +74,7 @@ li,ul{list-style: none; padding: 0; margin: 0;}
 .content{position:absolute;top:0;right:0;bottom:0;overflow:auto;left:0;-webkit-overflow-scrolling:touch}
 .wu-bgColor{background-color:#F0F3F5;}
 /*.button{position:relative;display:block;height:2rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;padding:0 .5rem;margin:0;font-family:'Microsoft YaHei';font-size:.7rem;line-height:2rem;color:#0894ec;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;background:0 0;border:1px solid #0894ec;border-radius:.15rem;-moz-appearance:none;-ms-appearance:none;appearance:none}*/
-.button{position:relative;display:block;height:2rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;padding:0 .5rem;margin:0;font-family:'Microsoft YaHei';font-size:.7rem;line-height:2rem;color:#FFF;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;background:0 0;border:1px solid #ff8a34;border-radius:.15rem;-moz-appearance:none;-ms-appearance:none;appearance:none}
+.button{position:relative;display:block;height:2rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;padding:0 .5rem;margin:0;font-family:'Microsoft YaHei';font-size:.7rem;line-height:2rem;color:#FFF;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;background:0 0;border:0;border-radius:.15rem;-moz-appearance:none;-ms-appearance:none;appearance:none}
 .bar-nav~.content{top:2.0rem}
 .bar-header-secondary~.content{top:4.4rem}
 .bar-footer~.content{bottom:2.2rem}
@@ -330,7 +330,7 @@ li,ul{list-style: none; padding: 0; margin: 0;}
     content: "\e93e";
 }
 /* 展位装修  */
-.row{margin-left:-4%;overflow:hidden;height: 2.1rem;}
+.row{margin-left:-4%;overflow:hidden;}
 .row>[class*=col-],.row>[class*=tablet-]{float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .row.no-gutter{margin-left:0}
 .row .col-100{width:96%;margin-left:4%}
@@ -655,7 +655,7 @@ html:not(.watch-active-state) label.label-checkbox:active .item-inner:after,labe
 .bar .searchbar .search-input input{border:0}
 .bar .searchbar .searchbar-cancel{color:#5f646e}
 input[type=button].button,input[type=submit].button{width:100%}
-.button.button-primary{color:#fff;background-color:#ff8a34;border-color:#ff8a34;}
+.button.button-primary{color:#fff;background-color:#46aae5;border-color:#46aae5;}
 .button.button-primary:active,
 .button.button-primary:hover{color:#fff;background-color:#f3651f; border-color:#f3651f}
 .button.button-disable{ color: #000;border-color: #ccc;  background-color: #ccc;}
@@ -1299,7 +1299,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .total-assets-chart .center dl dt .returen-funds{color:#32daff; margin-right:4px;font-style:normal; position:relative;top:2px;width: .5rem;height: .5rem;background: #32daff;display: inline-block;border-radius: 50%;}
 .total-assets-chart .center dl dt .freeze-funds{color:#b4ffe1;margin-right:4px;font-style:normal; position:relative;top:2px;width: .5rem;height: .5rem;background: #b4ffe1;display: inline-block;border-radius: 50%;}
 .total-assets-chart .center dl dt .total-income{color:#fef898;margin-right:4px; font-style:normal; position:relative;top:2px;width: .5rem;height: .5rem;background: #fef898;display: inline-block;border-radius: 50%;}
-.product-box{ background-color:#fff;border-radius:4px; margin:8px; overflow:hidden; position:relative;}
+.product-box{ background-color:#fff;border-radius:4px;margin-bottom: 0.75rem; overflow:hidden; position:relative;}
 .product-box .top{ padding:.4em; border-bottom:1px solid #eee; color:#ccc}
 .product-box .top .time{ padding:.4em; border-bottom:1px solid #eee; font-size:.7rem;}
 .product-box .top .table{ text-align:left; width:100%; }
@@ -1471,7 +1471,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .maintain-bank-info .maintain-bank-inner .maintain-state {padding-left: 0;margin-left: .75rem;border-bottom: 1px solid #e1e1e1;}
 .maintain-bank-info .maintain-bank-inner .maintain-state .item-inner:after {background-color: #FFF;}
     /* 体验金 */
-.experience-button-fill { background-color: #ff8a34;color: #fff; }
+.experience-button-fill { background-color: #46aae5;color: #fff; }
 .novice-page .bar .button-link,
 .experience-page .bar .button-link { top: .3rem; }
 .novice-page .bar .button-nav.pull-right .icon-close,
@@ -1704,7 +1704,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .invest-product-detail .invest-info .item-title,
 .invest-product-detail .invest-info .item-after {font-size: .6rem;color: #333;}
 .invest-product-detail .invest-relevantinfo .list-block {margin: .4rem 0 0 0;}
-.invest-product-detail-page .content {bottom: 3rem;}
+.invest-product-detail-page .content {bottom: 2.5rem;}
 .invest-product-detail-page .content.purchase-finance {bottom: 0;}
 .invest-product-detail-page .content .button-fill {height: 2.4rem;background-color: #fa9d35;font-size: .9rem;}
 .invest-product-detail-page .content .button-fill span {position: relative;top: -.4rem;}
@@ -2109,7 +2109,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .login{ background: url(../images/login-bg.jpg) 0 0 no-repeat;background-size: cover; }
 .login .navbar-toggle { position: relative; float: left; display: block; margin-top: .5rem; margin-left: .75rem; background-color: transparent; background-image: none; font-size: .9rem; color: #fff; }
 .login .logo{ margin-top: 2.8rem; width: 106px; height: 45px;  margin-right: auto; margin-left: auto; margin-bottom: 0; background: url(../images/login-logo.png) 0 0 no-repeat; background-size: cover; text-indent: -9999px;}
-.login-form{ margin-top: 1.5rem; padding-left: 1.8rem; padding-right: 1.8rem;}
+.login-form{ margin: 1.5rem auto 0; width: 85%;}
 .login .form-group{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display:block; padding-bottom: .3rem; margin-bottom: 1rem; border-bottom: 1px solid #b6d8ec; color: #fff;}
 .login .form-group i{ font-size: 1rem;vertical-align: middle;}
 .login .form-group.logname i{ font-size: .9rem;}
@@ -2161,14 +2161,14 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .register-phone .item-media i{ color: #fff;font-size: 1rem;background-color: #fa9d35;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;
     line-height: 1.5em;text-indent: 2px;}
 .register-code .item-media i,
-.find-password .item-media i{ color: #fff;font-size:20px;background-color: #fa9d35;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;
+.find-password .item-media i{ color: #fff;font-size:20px;background-color: #46aae5;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;
     line-height: 1.5em;}
 .register-phone .item-media .icon.icon-award:before{ margin-left:-2px;}
 .register-code .item-media .icon.icon-message,.find-password .item-media .icon.icon-message{background-color: #fb8996;}
 .register-code .item-media .icon.icon-lock,.item-content .item-media .icon.icon-lock{background-color: #83dbdb;}
 .register-phone .next-btn,.register-code .next-btn,.find-password .next-btn,.alert-number .next-btn,.withdraw-cash .next-btn,.activity-box.next-btn{ position:absolute; bottom:1.5em; width: 100%;}
-.alert-number .icon-lock_open{ color:#fa9d35;font-size: 1rem;width: 1.5em;height: 1.5em;text-align: center;line-height: 1.5em;}
-.alert-number .icon-lock{color: #fff;font-size: 1rem;background-color: #fa9d35;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;line-height: 1.5em;}
+.alert-number .icon-lock_open{ color:#46aae5;font-size: 1rem;width: 1.5em;height: 1.5em;text-align: center;line-height: 1.5em;}
+.alert-number .icon-lock{color: #fff;font-size: 1rem;background-color: #46aae5;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;line-height: 1.5em;}
 
 .register-code .next-btn,
 .find-password .next-btn { position:absolute; bottom:1.5em;}
@@ -2322,9 +2322,9 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .uc-asset-details .content-block .button-primary{ width:100%;}
 
 /* 借款申请 */
-.picker-list .icon-place,.picker-list .icon-job,.picker-list .icon-shop,.picker-list .icon-Boothname{color:#fa9d35;}
+.picker-list .icon-place,.picker-list .icon-job,.picker-list .icon-shop,.picker-list .icon-Boothname{color:#46aae5;}
 .loan-product-info .verifycode .pic-verifycode .verifycode-img {display: inline-block;width: 60px;height: 25px;margin-right: 5px;vertical-align: bottom;}
-.loan-product-info .verifycode .send-verifycode {display: inline-block;width: 3rem;height: 1.25rem;line-height: 1.25rem;border: 1px solid #ffb900;border-radius: 3px;font-size: .7rem;color: #ffb900;text-align: center;box-sizing: border-box;}
+.loan-product-info .verifycode .send-verifycode {display: inline-block;width: 3rem;height: 1.25rem;line-height: 1.25rem;border: 1px solid #46aae5;border-radius: 3px;font-size: .7rem;color: #46aae5;text-align: center;box-sizing: border-box;}
 .picker-list .text-align-r{ text-align:right;}
 .list-block .item-content .item-inner .cell{ position: absolute; right:12px;top:12px; font-size:.7rem;}
 .icon-eye-open{ position:absolute; right:12px;margin-top: 4px; color:#fa9d35;font-size: 1.2rem;z-index:99;}
@@ -2516,7 +2516,7 @@ animation-fill-mode: both;position: absolute; }
 .activity-reg .list-block ul{ background:#fff;}
 .activity-reg .item-media i{ color: #fff;font-size: 1rem;background-color: #fa9d35;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;line-height: 1.5em;text-indent: 2px;}
 .activity-reg .send-verifycode em,.activity-reg .send-verifycode span{font-style: normal;color: #969da0;display: inline-block;}
-.register-phone .item-media i{ color: #fff;font-size: 1rem;background-color: #fa9d35;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;
+.register-phone .item-media i{ color: #fff;font-size: 1rem;background-color: #46aae5;border-radius: 50%;width: 1.5em;height: 1.5em;text-align: center;
     line-height: 1.5em;text-indent: 2px;}
 .register-code .item-media i,
 .activity-reg .item-media .icon.icon-message,.activity-reg .item-media .icon.icon-message{background-color: #fb8996;}
@@ -2840,7 +2840,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;line-height: 2.5rem;}
 .wu-ensure-buy .final-pay-box .final-pay{color: #ff9900;}
 .wu-ensure-buy .final-pay-box .save-money{font-size: 0.6rem;color: #999;}
-.final-pay-submit{border: 0; display: block;width: 100%;height: 2.5rem;background-color: #ff9900;border-radius: 0;}
+.final-pay-submit{border: 0; display: block;width: 100%;height: 2.5rem;background-color: #fa9d35;border-radius: 0;}
 .final-pay-submit>span{display:block; width: 100%;}
 .final-pay-submit>span:nth-child(1){line-height: 1.8; height: 60%;font-size: 0.9rem;}
 .final-pay-submit>span:nth-child(2){line-height: 1; height: 40%;font-size: 0.6rem;opacity: 0.8;}
@@ -2863,10 +2863,10 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .list-block.approve-content .item-title{color: #333;}
 .list-block.approve-content .item-title.label{width: 28%;}
 .wu-btn-box{width: 100%;}
-.wu-container-btn{padding: 0;position: fixed;bottom: 0;}
+.wu-container-btn{padding: 0;position: fixed;bottom: 0;z-index: 6666;}
 .wu-margin-btn{padding: 0 0.75rem;margin: .5rem 0;}
 .wu-container-btn.wu-btn-box .button{border-radius: 0!important;}
-.wu-btn-box .button{background: #46aae5;border: 0;border-radius: 5px;}
+.wu-btn-box .button{background: #fa9d35;border: 0;border-radius: 5px;}
 .bank-description{margin-top: -0.25rem;}
 .bank-description>a {display: inline-block;padding: 3px;color: #3F7AD2;font-size: 12px;text-decoration: underline;}
 .approve-icon{padding: 1.1rem 0 2rem;}
@@ -2954,7 +2954,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .loan-tab-content .buttons-tab .button.active {color: #1EAADC;border-color: #1EAADC;}
 .loan-tab-content .buttons-tab .button{font-size: 0.7rem;}
 .loan-tab-content .content-block{padding: 0 0.3rem;}
-.card.loan-info{border-radius: 5px; margin: 0;}
+.card.loan-info{border-radius: 5px; margin: 0 0 0.5rem;}
 .loan-info .card-content-inner{padding: 0.5rem 0.5rem 0.25rem;}
 .loan-tab-content .loan-time{color: #999;font-size: 0.6rem}
 .loan-tab-content .loan-name{font-size: 0.7rem;color: #333;padding: 0.2rem 0;}
@@ -3018,7 +3018,11 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .event-lists .eventIng-title:before{content: "";position:absolute;left: -0.45rem; top: 0;bottom: 0;margin: auto 0; width: 6px;height: 6px;border-radius: 50%;background-color: #cc0000;}
 .event-end-flag{position: absolute;z-index: 888; right: 1.1rem; top: 0.6rem; width: 2.8rem;height: 2.8rem;background: url(../images/event-end-flag.png) no-repeat center; background-size: cover;}
 
-
+/*登录页*/
+.login .form-group.logbtn .button.button-primary{
+    background-color: #ff8a34;
+    border-color: #ff8a34;
+}
 
 
 
