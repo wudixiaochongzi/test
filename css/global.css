@@ -1708,7 +1708,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .invest-product-detail-page .content.purchase-finance {bottom: 0;}
 .invest-product-detail-page .content .button-fill {height: 2.4rem;background-color: #fa9d35;font-size: .9rem;}
 .invest-product-detail-page .content .button-fill span {position: relative;top: -.4rem;}
-.apply-num {position: absolute;text-align: center;font-size: .6rem;bottom: 3.2rem;z-index: 5;left: 20%;}
+.apply-num {text-align: center;font-size: .6rem;z-index: 5;left: 20%;}
 .apply-num.details-item-num {left: 0;bottom: 0;width: 100%;z-index: 10000;color: #FFF;}
 .apply-num em {/*color: #fa9d35;*/color: #FFF;font-size: .6rem;}
 .invest-product-detail .invest-relevantinfo .item-title {font-size: .6rem;color: #333;}
@@ -1979,26 +1979,26 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .index .swiper-wrapper .swiper-slide{height: 9rem; background-repeat: no-repeat; background-position: center center; background-size: cover}
 .index .swiper-wrapper .swiper-slide > a{ display:block; height:100%;}
 .index .swiper-container{ padding-bottom: 0;}
-.index .swiper-container-horizontal>.swiper-pagination{ bottom: 0;margin-bottom: 1.2rem;}
+.index .swiper-container-horizontal>.swiper-pagination{ bottom: 0;}
 /* 弹窗通知 */
 .diglor{ width:100%; height:100%; position: fixed; left:0px; top:10%; margin:auto;justify-content: center; text-align:center; vertical-align: middle;    opacity: 1;transform:none; display:block; z-index:12000;}
 .diglor_img {width: 356px;height: 524px;margin: 0 auto; position: relative;}
 .diglor .close_notice {width: 32px;height: 32px;display: block;background: url(../img/close_notice.png) 0 0 no-repeat;background-size: 32px;position: absolute;top: 12px;right: 45px}
 
 /* 首页底部菜单选中 */
-.home-page .web-home-item {color: #ff933c;}
+.home-page .web-home-item {color: #46aae5;}
 
-.home-page .section-hd {position: absolute;width: 100%;height: 9rem;z-index: 9999;top: 0;}
- .section-hd .hd-item {text-align: center;color: #FFF;}
+.home-page .section-hd {width: 100%;border-bottom: 1px solid #e5e5e5;margin-bottom: 0.25rem;}
+ .section-hd .hd-item {text-align: center;color: #333;}
  .section-hd .home-page-logo {padding-top: .8rem;}
  .section-hd .home-page-logo i {display: inline-block;width: 4rem;height: 1.8rem;background: url(../img/home-page-logo.png) no-repeat;background-size: 4rem;}
-.section-hd .hd-item {position: absolute;left: 0;bottom: 0;width: 100%;height: 20px;line-height: 1rem;opacity: 0.8;text-align: left;background-color: #3f99ce;padding-left: 10px;font-size: 12px;}
-.section-hd .hd-item .icon-Notice {vertical-align: middle;margin-right: 6px;font-size: .75rem;float: left;position: relative;top: .2rem;}
+.section-hd .hd-item {width: 100%;height: 1.3rem;line-height: 1.3rem;opacity: 0.8;text-align: left;background-color: #fff;padding-left: 10px;font-size: 12px;}
+.section-hd .hd-item .icon-Notice {color: #ffb74c; vertical-align: middle;margin-right: 6px;font-size: .75rem;float: left;position: relative;top: 0.3rem;}
 .section-hd .hd-item .notice-title {float: left;}
 .section-hd .hd-item .notice-content {position: relative;height: 20px;margin-left: 80px;overflow: hidden;}
 .section-hd .hd-item .notice-content .notice-list {white-space:nowrap;}
 .section-hd .hd-item .notice-content .notice-item {display: block;margin: 0;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
-.section-hd .hd-item .notice-content .notice-item a {color: #fff;}
+.section-hd .hd-item .notice-content .notice-item a {color: #333;}
 .section-hd .hd-item .notice-content .notice-item.rotate {-webkit-transform: rotatex(360deg);-webkit-transition: all 3s ease-in 0s;transform: rotatex(360deg);transition: all 3s ease-in 0s;}
 
 
@@ -2013,7 +2013,7 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 .home-page-section .buttons-tab .button.tab3-active i {border-color: #83dbdb;}
 .home-page-content .home-page-section .buttons-tab a i {display: inline-block;width: 1.05rem;height: 1.05rem;font-size: .7rem;border: 1px solid #969da0;border-radius: 50%;padding: .14rem;margin-right: .3rem;vertical-align: baseline;}
 .home-page-section .content-block .tabs {height: 12.5rem;}
-.home-page-section .content-block {margin: 0;padding: 1.25rem;background-color: #FFF;   }
+.home-page-section .content-block {margin: 0;padding: 0.6rem 1.25rem 1.25rem;background-color: #FFF;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;}
 .home-page-section .tab .tab-content .diagram {width: 10.4rem;height: 10.4rem;margin: 0 auto;}
 .home-page-section em {font-style: normal;}
 
@@ -2837,10 +2837,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .bank-info .bank-info-end{font-size: 0.55rem;color: #b4b4b4;}
 .wu-ensure-buy{background-color: #fff;position: fixed;z-index: 10000; bottom: 0;width: 100%;border-top: 1px solid #e1e1e1;}
 .wu-model-agreement{margin-bottom: 5.2rem; margin-top: 0.75rem;}
-.wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;}
-.wu-ensure-buy .final-pay-box>div[class^='final-pay-']{height: 50%;}
-.wu-ensure-buy .final-pay-box .final-pay-list1{line-height: 1.6rem;}
-.wu-ensure-buy .final-pay-box .final-pay-list2{font-size: 0.6rem;line-height: 1.35rem;color: #b4b4b4;}
+.wu-ensure-buy .final-pay-box{height: 2.5rem;text-align: center;line-height: 2.5rem;}
 .wu-ensure-buy .final-pay-box .final-pay{color: #ff9900;}
 .wu-ensure-buy .final-pay-box .save-money{font-size: 0.6rem;color: #999;}
 .final-pay-submit{border: 0; display: block;width: 100%;height: 2.5rem;background-color: #ff9900;border-radius: 0;}
@@ -2996,6 +2993,28 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .list-block.card-order .item-title{color: #333;}
 .list-block.card-order .item-after{color:#969da0}
 .list-block.card-order ul:before{background-color: #fff;}
+
+/*首页*/
+.tab-title{overflow: hidden;margin-left: -0.6rem;margin-right: -0.6rem;}
+.tab-title-icon{font-size: 0.9rem; color: #fff; width: 1.15rem;height: 1.15rem;float: left;border-radius: 50%;text-align: center;line-height: 1.3rem;}
+.home-jia-icon{background-color: #1eaadc;}
+.home-jia-title{background-color: #1eaadc;}
+.tab-title-words{line-height: 1.15rem;color: #1eaadc;padding-left: 1.5rem;font-size: 0.8rem;}
+.home-tiyan-icon{background-color: #fa7e8c;}
+.home-tiyan-title{color: #fa7e8c;}
+
+/*活动列表页*/
+.event-lists .card-header{-webkit-flex-wrap:wrap; flex-wrap: wrap; padding-bottom: 0;}
+.event-lists .event-title{font-size: 0.8rem;width: 100%;}
+.event-lists .event-time{font-size: 0.6rem;width: 100%;color: #999;margin: 0.1rem 0 0.2rem;}
+.event-lists .card-header:after{height: 0;}
+.event-lists .card-content-inner{padding: 0 0.5rem 0.25rem;}
+.event-lists .event-list-img{height: 8rem; display: block;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.event-lists .event-description{margin-top: 0.25rem;font-size: 0.6rem;color: #999;}
+.event-lists .card-footer>a{color: #5d5d5d;}
+.event-lists .card-footer .look-now-icon{position: absolute;right: 0.5rem;}
+.event-lists .card{border-radius: 5px;}
+
 
 
 
