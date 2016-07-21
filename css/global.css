@@ -3004,17 +3004,17 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .home-tiyan-title{color: #fa7e8c;}
 
 /*活动列表页*/
-.event-lists .card-header{-webkit-flex-wrap:wrap; flex-wrap: wrap; padding: 0.4rem 0.75rem 0;}
+.event-lists .card-header{-webkit-flex-wrap:wrap; flex-wrap: wrap; padding: 0.5rem 0.75rem 0;}
 .event-lists .event-title{font-size: 0.8rem;width: 100%;position: relative;}
 .event-lists .event-time{font-size: 0.6rem;width: 100%;color: #999;margin-bottom:0.2rem;}
 .event-lists .card-header:after{height: 0;}
 .event-lists .card-content-inner{padding: 0 0.75rem 0.25rem;}
 .event-lists .event-list-img{height: 8rem; display: block;background-position: center;background-repeat: no-repeat;background-size: cover;}
 .event-lists .event-description{margin-top: 0.25rem;font-size: 0.6rem;color: #999;}
-.event-lists .card-footer{color: #5d5d5d;display: block;padding: 0.4rem 0.75rem;}
+.event-lists .card-footer{color: #5d5d5d;display: block;padding: 0.5rem 0.75rem;}
 .event-lists .card-footer .look-now-icon{position: absolute;right: 0.5rem;}
 .event-lists .card{border-radius: 5px;}
-.event-lists .card-footer:before{width: 94%;right: 0;left: 0;margin: 0 auto;z-index: 99;}
+.event-lists .card-footer:before{height: 0;}
 .event-lists .eventIng-title:before{content: "";position:absolute;left: -0.45rem; top: 0;bottom: 0;margin: auto 0; width: 6px;height: 6px;border-radius: 50%;background-color: #cc0000;}
 .event-end-flag{position: absolute;z-index: 888; right: 1.1rem; top: 0.6rem; width: 2.8rem;height: 2.8rem;background: url(../images/event-end-flag.png) no-repeat center; background-size: cover;}
 
