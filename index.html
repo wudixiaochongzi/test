@@ -219,8 +219,8 @@
             var $cPost=$('.calculator-post');
             var cpX=$cp.offset().left;//指针相对于窗口的距离
             var csW=$cs.find('.cs').outerWidth();//每个刻度的宽度
-
-            // 每一万显示的刻度值
+            var clientW=$(document).outerWidth();
+            // 每一万显示刻度值
             $cs.each(function(){
                 var csIndex=$(this).index();
                 var $cnSpan=$(this).find('.cs');
@@ -240,7 +240,7 @@
                 e=e.changedTouches[0];
                 var dx= e.pageX;
                 var moveX=parseInt($csInner.css("left"));
-                $(document).on('touchmove',csMove);
+                $csBox.on('touchmove',csMove);
                 function csMove (e) {
                     e=e.changedTouches[0];
                     var mx= e.pageX;
@@ -250,6 +250,23 @@
                         $csInner.css({'left':cpX-40+'px'});
                     }
                     cpnAct();
+                    var $csNew=$('.calculator-scale');
+                    var $csLast=$csNew.last();
+                    if($csLast.offset().left<=clientW){
+                        $csInner.append('<div class="calculator-scale">'+
+                                '<span class="cs"><em class="tn"></em></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '<span class="cs"></span>'+
+                                '</div>');
+                        $('.calculator-scale').last().attr('tn',$('.calculator-scale').last().index()*10000).find('.tn').text($('.calculator-scale').last().attr('tn'));
+                    }
                 }
             })
         })
