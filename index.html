@@ -240,7 +240,7 @@
                 e=e.changedTouches[0];
                 var dx= e.pageX;
                 var moveX=parseInt($csInner.css("left"));
-                $csBox.on('touchmove',csMove);
+                $(document).on('touchmove',csMove);
                 function csMove (e) {
                     e=e.changedTouches[0];
                     var mx= e.pageX;
@@ -265,7 +265,8 @@
                                 '<span class="cs"></span>'+
                                 '<span class="cs"></span>'+
                                 '</div>');
-                        $('.calculator-scale').last().attr('tn',$('.calculator-scale').last().index()*10000).find('.tn').text($('.calculator-scale').last().attr('tn'));
+                        var $csNew2=$('.calculator-scale');
+                        $csNew2.last().attr('tn',$csNew2.last().index()*10000).find('.tn').text($csNew2.last().attr('tn'));
                     }
                 }
             })
