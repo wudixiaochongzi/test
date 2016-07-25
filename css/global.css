@@ -3026,13 +3026,24 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .income-calculator{position: absolute;right: 0.25rem; top: 0.5rem;color: #fff;line-height: 1.5;width: 1.8rem;text-align: center;}
 .calculator-cont{background-color: #fff;padding: 0.5rem 0 0;}
 .calculator-cont>div{text-align: center;}
-.calculator-post{font-size: 1.2rem;color: #FF9933;padding: 0.25rem 0;}
+.calculator-post{font-size: 1.4rem;color: #FF9933;padding: 0.25rem 0;}
 .calculator-get{color: #ff9933;}
 .calculator-scale-box{overflow: hidden;height: 20px;padding: 38px 0 12px;position: relative;box-sizing: content-box;}
 .calculator-scale-inner{left: 0; padding: 0 30px; position: absolute;border-bottom: 1px solid #8BC9EE;display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;}
 .calculator-scale>span.cs{position: relative; box-sizing: border-box; width: 10px;height: 12px;border-left: 1px solid #a5a5a5;}
 .calculator-scale>span.cs:first-child{height: 18px;border-color: #8BC9EE;}
-.calculator-pointer{width: 1px;height: 40px;position: absolute;background-color: #ff9933;top: 16px;left: 50%;}
+.calculator-pointer{width: 1px;height: 40px;position: absolute;background-color: #ff9933;top: 18px;left: 50%;}
 .calculator-scale{display: -webkit-box;display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;}
 .calculator-scale em.tn{font-size: 14px; color: #999999; position: absolute;top: -18px;left: 0;transform: translateX(-50%);-webkit-transform: translateX(-50%);}
+
+/*确认购买-未绑定银行卡*/
+.buy-bank-no{vertical-align: middle;display: inline-block;height: 100%;color: #c8c8c8;}
+i.buy-bank-no{margin-right: 0.3rem; text-align: center; line-height: 1.4rem; border: 1px solid #c8c8c8;border-radius: 50%;font-size: 0.5rem;position: relative;width: 1.4rem;height: 1.4rem;}
+.buy-bank-go{vertical-align: middle;line-height: 1.4rem;}
+
+
+
+
+
+
 
