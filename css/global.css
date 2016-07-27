@@ -3037,7 +3037,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .calculator-scale em.tn{font-size: 14px; color: #999999; position: absolute;top: -18px;left: 0;transform: translateX(-50%);-webkit-transform: translateX(-50%);}
 
 /*确认购买-未绑定银行卡*/
-.buy-bank-no{vertical-align: middle;display: inline-block;height: 1.2rem;line-height:1.2rem;color: #c8c8c8;}
+.buy-bank-no{vertical-align: middle; display: inline-block;height: 1.2rem;line-height:1.2rem;color: #c8c8c8;}
 i.buy-bank-no{margin-right: 0.3rem; text-align: center; line-height: 1.2rem; border: 1px solid #c8c8c8;border-radius: 50%;font-size: 0.6rem;position: relative;width: 1.2rem;height: 1.2rem;}
 .buy-bank-go{vertical-align: middle;line-height: 1.4rem;}
 .coupon-sum.bankcard-msg .item-link .item-inner{justify-content: space-between;}
