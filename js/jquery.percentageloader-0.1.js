@@ -45,7 +45,7 @@ Zepto(function ($) {
             params = settings;
         }
 		
-		if (settings.type == 'wzt')
+		if (settings.type == 'tyb')
 		{
 			gradient.src = './images/bg03.png';
 		} else {

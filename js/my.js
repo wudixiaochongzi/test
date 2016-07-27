@@ -481,3 +481,78 @@ $.fn.selectRange = function(start, end) {
         }
     });
 };
+$(document).on('click', '#calculator', function () {
+  $.popup('.popup-about');
+  $(".close-popup-con").click(function () {
+    $.closeModal('.popup-about');
+  });
+  //计算器刻度
+  var $cs=$('.calculator-scale');
+  var $csBox=$('.calculator-scale-box');
+  var $csInner=$('.calculator-scale-inner');
+  var $cp=$('.calculator-pointer');
+  var $cPost=$('.calculator-post');
+  var cpX=$cp.offset().left;//指针相对于窗口的距离
+  var csW=$cs.find('.cs').outerWidth();//每个刻度的宽度
+  var clientW=$(document).outerWidth();
+  // 每一万显示刻度值
+  $cs.each(function(){
+    var csIndex=$(this).index();
+    var $cnSpan=$(this).find('.cs');
+    var $tn=$(this).find('.tn');
+    $(this).attr('tn',csIndex*10000);
+    $tn.text($(this).attr('tn'));
+  });
+  cpnAct();
+  function cpnAct () {
+    var csX=$csInner.offset().left;
+    var cpn=parseInt((cpX-csX-30)/csW)*1000;
+    if (cpn>0){$cPost.text(cpn);}
+  }
+  //滑动数轴
+  var lx;
+  $csBox.on('touchstart',function(e){
+    e=e.changedTouches[0];
+    var dx= e.pageX;
+    var moveX=parseInt($csInner.css("left"));
+    $(document).on('touchmove',csMove);
+    function csMove (e) {
+      e=e.changedTouches[0];
+      var mx= e.pageX;
+      lx=mx-dx;
+      $csInner.css({'left':lx+moveX+'px'});
+      if (($csInner.offset().left+40)>=cpX){
+        $csInner.css({'left':cpX-40+'px'});
+      }
+      cpnAct();
+      var $csNew=$('.calculator-scale');
+      var $csLast=$csNew.last();
+      if($csLast.offset().left<=clientW){
+        $csInner.append('<div class="calculator-scale">'+
+            '<span class="cs"><em class="tn"></em></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '<span class="cs"></span>'+
+            '</div>');
+        var $csNew2=$('.calculator-scale');
+        $csNew2.last().attr('tn',$csNew2.last().index()*10000).find('.tn').text($csNew2.last().attr('tn'));
+      }
+    }
+  });
+
+    var $wuCBtn=$('.wu-container-btn');
+    $(window).resize(function(){
+        var oHeightNew=$(window).height();
+        if (oHeightNew<oHeight){
+            $wuCBtn.css('display','none');
+        }else{
+            $wuCBtn.css('display','block');
+        }
+    });
+});

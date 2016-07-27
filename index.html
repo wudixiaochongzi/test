@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>家金所</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--  css 文件 -->
+    <link href="css/global.css"  rel="stylesheet">
+</head>
+<body class="mhome">
+<div class="global">
+    <!-- 站点视图 Page-->
+    <div id="invest-product-detail" class="page invest-product-detail-page experience-bind-bankcard-code">
+        <div class="content purchase-finance">
+            <!--  页面区域 -->
+            <section class="invest-product-detail">
+                <!--顶部-->
+                <div class="gradient-head">
+                    <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+                        <i class="arrow-left"></i>
+                    </a>
+                    <div class="invest-title"><h1 class="">家金宝2号ZZ1511040003</h1></div>
+                    <div class="grid ipdp-expected-earnings">
+                        <div class="invest-para invest-earnings">
+                            <span class="value"><em>7.13</em>%</span>
+                            <p class="label">预期年化收益</p>
+                        </div>
+                        <div class="invest-para invest-deadline">
+                            <span class="value"><em>9</em>个月</span>
+                            <p class="label">借款期限</p>
+                        </div>
+                    </div>
+                    <div class="gradient-head-wave"><div class="gradient-head-wave-inner"></div></div>
+                </div>
+
+                <!--购买金额+预期收益-->
+                <div class="finance-sum">
+                    <p>购买金额（最低<span>1,000.00</span>元，按<span>100.00</span>元递增）</p>
+                    <div style="overflow: hidden;">
+                        <div class="change-amount">
+                            <a href="javascript:;">-</a>
+                            <span><input type="text" value="1000"><em>元</em></span>
+                            <a href="javascript:;">+</a>
+                        </div>
+                    </div>
+                    <div class="exp-income">预期收益：<span class="exp-income-num"><em>1562</em>元</span></div>
+                </div>
+
+                <!--优惠券-->
+                <div class="coupon-sum">
+                    <div class="content-sum-title">可使用优惠券（您有<em class="content-sum-num">4</em>张优惠券）</div>
+                    <ul>
+                        <li>
+                            <a href="#" class="item-link item-content" id="my_modal">
+                                <div class="item-inner">
+                                    <div class="item-title label">加息券</div>
+                                    <div class="item-text"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="item-link item-content" id="my_modal2">
+                                <div class="item-inner">
+                                    <div class="item-title label">投资券</div>
+                                    <div class="item-text"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="item-link item-content">
+                                <div class="item-inner no-link">
+                                    <div class="item-title label">奖励金额<span class="award-money">可用奖励金额￥200</span></div>
+                                    <div class="item-text"><input type="text" placeholder="请输入金额" maxlength="8" style="height:18px;line-height:18px; text-align:right;display: inline-block;width: 92%;color: #fa7249;"> 元</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--银行卡-->
+                <div class="bankcard-msg coupon-sum">
+                    <div style="height: 0.5rem;"></div>
+                    <ul>
+                        <li>
+                            <a href="个人中心-我的银行卡-绑定银行卡.html" class="item-link item-content">
+                                <div class="item-inner">
+                                    <div class="wu-clf">
+                                        <i class="iconfont buy-bank-no">&#xe606;</i>
+                                        <div class="buy-bank-no">
+                                            未绑定银行卡
+                                        </div>
+                                    </div>
+                                    <span class="buy-bank-go">绑卡</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="content-sum-title">账户余额：<span>200</span>元</div>
+                </div>
+            </section>
+            <div class="model-agreement wu-model-agreement"><input type="checkbox" checked><span>已同意并阅读<em><a href="javascript:;">《借款合同范本》</a></em><em><a href="javascript:;">《理财服务协议范本》</a></em></span></div>
+
+            <!--确认购买-->
+            <div class="wu-ensure-buy">
+                <div class="final-pay-box">
+                    实付金额：<span class="final-pay">￥<em>1000.00</em></span><span class="save-money">（已省￥<em>300</em>）</span>
+                </div>
+                <button id="purchase_submit_button" class="button final-pay-submit" disabled="disabled"><span>请绑定银行卡</span><span class="apply-num">申购人数：24人（剩余<em>432,000.00</em>元）</span></button>
+            </div>
+        </div>
+    </div>
+<!----------------------优惠券弹层---------------------------------->
+    <div class="userule reveal-modal coupon-sum-bg popup popup-about" id="">
+    <div class="top">请选择优惠券<div class="close-popup-con close-popup"><span class="close-popup close-cross"></span></div></div>
+    <a  href="javascript:;" class="coupon" id="coupon_one">
+        <div class="coupon-box">
+            <div class="stamp stamp-orange">
+                <!--优惠券选择-->
+                <div class="coupon-choose"></div>
+                <div class="img"></div>
+                <div class="copy">
+                    <div class="stamp01">
+                        <dd>加息券</dd>
+                                   <p><span>+&nbsp;</span><b>0.25</b><span>&nbsp;%</span></p>
+                                   <em>稳赚团专用</em>
+                               </div>
+                      </div>
+                   <div class="par">
+                          <div class="stamp02">
+                               <em>加息券1号201608231199</em>
+                               <em>加息期限：7天</em>
+                             <em>预期收益日：2016-12-31</em>
+                           </div>
+                       </div>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;">
+            <div class="coupon-box">
+                <div class="stamp stamp-blue">
+                    <div class="coupon-choose"></div>
+                    <div class="img"></div>
+                    <div class="copy">
+                        <div class="stamp01">
+                            <dd>加息券</dd>
+                            <p><span>+&nbsp;</span><b>0.25</b><span>&nbsp;%</span></p>
+                            <em>家金宝专用</em>
+                        </div>
+                    </div>
+                    <div class="par">
+                        <div class="stamp02">
+                            <em>加息券1号201608231199</em>
+                            <em>加息期限：7天</em>
+                            <em>预期收益日：2016-12-31</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!----------------------------------------->
+    <!----------------------投资券弹层---------------------------------->
+    <div class="userule reveal-modal coupon-sum-bg popup popup-about2" id="">
+    <div class="top">请选择投资券<div class="close-popup-con2 close-popup"><span class="close-popup close-cross"></span></div></div>
+    <a href="javascript:;" class="">
+        <div class="coupon-box">
+            <div class="stamp stamp-blue">
+                <div class="coupon-choose"></div>
+                   <div class="img"></div>
+                  <div class="copy">
+                           <div class="stamp01">
+                               <dd>投资券</dd>
+                               <p><b>100</b><span>&nbsp;元</span></p>
+                             <em>家金宝专用</em>
+                           </div>
+                       </div>
+                   <div class="par">
+                   		<div class="stamp02">
+                          <em>投资券1号201608231199</em>
+                           <em>到期日期：2016-12-31</em>
+                   		</div>
+                   </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!----------------------------------------->
+</div>
+
+<!-- jquery库及所引用js文件 -->
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+<script>
+    $(function () {
+        $(document).on('click', '#purchase_submit_button', function () {
+            var modal = $.modal({
+                text: '请输入支付密码<div class="close-popup-con"><span class="close-popup close-cross"></span></div>',
+                afterText: '<div class="payment-box" id="payment_box">' +
+                '<div class="box-title"></div>' +
+                '<div><i class=""></i><span>￥1,000.00</span></div>' +
+                '<div><input type="number" maxlength="6" class="" id="password_field">' +
+                '<div class="password-box" id="password_box"><span class=""></span><span></span><span></span><span></span><span></span><span></span></div><span id=""></span></div>' +
+                '</div>'
+            });
+            $('.modal').css({'marginTop':'-20px'});
+            //密码框获得焦点
+            $("#password_field")[0].focus();
+            //密码框失去焦点时，点击外层div，重新获得焦点
+            $("#password_box").click(function () {
+                $("#password_field")[0].focus();
+            });
+            $(".close-popup-con").click(function () {
+                $(".modal").empty();
+                $.closeModal(".modal");
+            });
+            //input值
+            var passwordValue = "";
+            //input值的长度
+            var passwordLength = "";
+            //监听input，内容修改时执行函数中内容
+            $("#password_field").bind('input', function () {
+                passwordLength = $(this).val().length;
+                //长度变化时，添加密码框“点”样式
+                $("#password_box").children().eq(passwordLength-1).addClass("init-status");
+                //长度变化时，删除密码框“点”样式
+                $("#password_box").children().eq(passwordLength).removeClass("init-status");
+                //特殊情况处理
+                if(passwordLength == 0) {
+                    $("#password_box").children().eq(5).removeClass("init-status");
+                }
+                passwordValue = $("#password_field").val();
+                if(passwordValue == '111111') {/!*passwordLength*!/
+                    $(".modal").empty();
+                    $.closeModal();
+                    var modal = $.modal({
+                        text: '<div class="success-failure-layer purchase-success" id=""><i class="purchase-success-icon"></i><br><span>购买成功</span><div class="close-popup-con"><span class="close-cross"></span></div></div>'
+                    });
+                    $(".close-popup-con").click(function () {
+                        $(".modal").empty();
+                        $.closeModal(".modal");
+                        window.location = "个人中心.html";
+                    });
+                    /!*setTimeout($.closeModal,1000);*!/
+                }
+                if (passwordValue == '222222'){
+                    $(".modal").empty();
+                    $.closeModal();
+                    /!*setTimeout($.closeModal,2500);*!/
+
+                    $.confirm('支付密码错误，请重试',
+                            function () {
+//                    忘记密码
+                            },
+                            function () {
+//                    重试
+                            }
+                    );
+                    var modalBtn=$('.modal-button');
+                    modalBtn.first().html('忘记密码');
+                    modalBtn.last().html('重试');
+                }
+            });
+        });
+        $(document).on('click', '#my_modal', function () {
+            $.popup('.popup-about');
+            $(".close-popup-con").click(function () {
+               $.closeModal('.popup-about');
+            });
+        });
+        var oHeight = $(window).height();
+        $(window).resize(function(){
+            var oHeightNew=$(window).height();
+            if (oHeightNew<oHeight){
+                $('.wu-ensure-buy').css('position','static');
+            }else{
+                $('.wu-ensure-buy').css('position','fixed');
+            }
+        });
+    });
+</script>
+</body>
+</html>

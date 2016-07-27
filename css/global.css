@@ -471,7 +471,7 @@ li,ul{list-style: none; padding: 0; margin: 0;}
 }
 .bar-tab:after{display:none}
 .bar-tab .tab-item{position:relative;display:table-cell;width:1%;height:2.5rem;color:#929292;text-align:center;vertical-align:middle}
-.bar-tab .tab-item.active,.bar-tab .tab-item:active{color:#ff933c}
+.bar-tab .tab-item.active,.bar-tab .tab-item:active{color:#46aae5;}
 .bar-tab .tab-item .badge{position:absolute;top:.1rem;left:50%;z-index:100;min-width:.8rem;height:.8rem;padding:0 .2rem;margin-left:.1rem;font-size:.6rem;line-height:.8rem;color:#fff;vertical-align:top;background:red;border-radius:.5rem}
 .bar-tab .tab-item .icon{top:.15rem;width:1.2rem;height:1.2rem;padding-top:0;padding-bottom:0;font-size:1.2rem;line-height:1.2rem}
 .bar-tab .tab-item .icon~.tab-label{position:relative;top:.15rem;display:block;font-size:.55rem}
@@ -658,6 +658,7 @@ input[type=button].button,input[type=submit].button{width:100%}
 .button.button-primary{color:#fff;background-color:#fa9d35;border-color:#fa9d35;}
 .button.button-primary:active,
 .button.button-primary:hover{color:#fff;background-color:#f3651f; border-color:#f3651f}
+.wu-btn-box .button.button-primary:hover{background-color: #46aae5;}
 .button.button-disable{ color: #000;border-color: #ccc;  background-color: #ccc;}
 .button.button-disable:active,
 .button.button-disable:hover{border-color: #d0d0d0;  background-color: #d0d0d0;}
@@ -1988,11 +1989,11 @@ html.with-statusbar-overlay .photo-browser{height:-webkit-calc(100% - 1rem);heig
 /* 首页底部菜单选中 */
 .home-page .web-home-item {color: #46aae5;}
 
-.home-page .section-hd {width: 100%;border-bottom: 1px solid #e5e5e5;margin-bottom: 0.25rem;}
+.home-page .section-hd {width: 100%;}
  .section-hd .hd-item {text-align: center;color: #333;}
  .section-hd .home-page-logo {padding-top: .8rem;}
  .section-hd .home-page-logo i {display: inline-block;width: 4rem;height: 1.8rem;background: url(../img/home-page-logo.png) no-repeat;background-size: 4rem;}
-.section-hd .hd-item {width: 100%;height: 1.3rem;line-height: 1.3rem;opacity: 0.8;text-align: left;background-color: #fff;padding-left: 10px;font-size: 12px;}
+.section-hd .hd-item {width: 100%;height: 1.3rem;line-height: 1.3rem;opacity: 0.8;text-align: left;padding-left: 10px;font-size: 12px;}
 .section-hd .hd-item .icon-Notice {color: #ffb74c; vertical-align: middle;margin-right: 6px;font-size: .75rem;float: left;position: relative;top: 0.3rem;}
 .section-hd .hd-item .notice-title {float: left;}
 .section-hd .hd-item .notice-content {position: relative;height: 20px;margin-left: 80px;overflow: hidden;}
@@ -2997,9 +2998,8 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 
 /*首页*/
 .tab-title{overflow: hidden;margin-left: -0.6rem;margin-right: -0.6rem;}
-.tab-title-icon{font-size: 0.9rem; color: #fff; width: 1.15rem;height: 1.15rem;float: left;border-radius: 50%;text-align: center;line-height: 1.3rem;}
+.tab-title-icon{font-size: 0.7rem; color: #fff; width: 1.15rem;height: 1.15rem;float: left;border-radius: 50%;text-align: center;line-height: 1.15rem;}
 .home-jia-icon{background-color: #1eaadc;}
-.home-jia-title{background-color: #1eaadc;}
 .tab-title-words{line-height: 1.15rem;color: #1eaadc;padding-left: 1.5rem;font-size: 0.8rem;}
 .home-tiyan-icon{background-color: #fa7e8c;}
 .home-tiyan-title{color: #fa7e8c;}
@@ -3038,8 +3038,9 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 
 /*确认购买-未绑定银行卡*/
 .buy-bank-no{vertical-align: middle;display: inline-block;height: 100%;color: #c8c8c8;}
-i.buy-bank-no{margin-right: 0.3rem; text-align: center; line-height: 1.4rem; border: 1px solid #c8c8c8;border-radius: 50%;font-size: 0.5rem;position: relative;width: 1.4rem;height: 1.4rem;}
+i.buy-bank-no{margin-right: 0.3rem; text-align: center; line-height: 1.2rem; border: 1px solid #c8c8c8;border-radius: 50%;font-size: 0.6rem;position: relative;width: 1.2rem;height: 1.2rem;}
 .buy-bank-go{vertical-align: middle;line-height: 1.4rem;}
+.coupon-sum.bankcard-msg .item-link .item-inner{justify-content: space-between;}
 
 
 
