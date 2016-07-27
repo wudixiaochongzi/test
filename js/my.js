@@ -544,15 +544,15 @@ $(document).on('click', '#calculator', function () {
         $csNew2.last().attr('tn',$csNew2.last().index()*10000).find('.tn').text($csNew2.last().attr('tn'));
       }
     }
-  });
-    var dHeight = $(window).height();
-    var $wuCBtn=$('.wu-container-btn');
-    $(window).resize(function(){
-        var oHeightNew=$(window).height();
-        if (oHeightNew<dHeight){
-            $wuCBtn.css('display','none');
-        }else{
-            $wuCBtn.css('display','block');
-        }
-    });
+  })
+});
+var dHeight = $(window).height();
+var $wuCBtn=$('.wu-container-btn');
+$(window).resize(function(){
+    var dHeightNew=$(window).height();
+    if (dHeightNew<dHeight){
+        $wuCBtn.css('display','none');
+    }else{
+        $wuCBtn.css('display','block');
+    }
 });
