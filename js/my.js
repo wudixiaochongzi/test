@@ -545,11 +545,11 @@ $(document).on('click', '#calculator', function () {
       }
     }
   });
-
+    var dHeight = $(window).height();
     var $wuCBtn=$('.wu-container-btn');
     $(window).resize(function(){
         var oHeightNew=$(window).height();
-        if (oHeightNew<oHeight){
+        if (oHeightNew<dHeight){
             $wuCBtn.css('display','none');
         }else{
             $wuCBtn.css('display','block');
