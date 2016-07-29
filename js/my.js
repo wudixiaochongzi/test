@@ -482,9 +482,9 @@ $.fn.selectRange = function(start, end) {
     });
 };
 $(document).on('click', '#calculator', function () {
-  $.popup('.popup-about');
+  $.popup('.calculator-pop');
   $(".close-popup-con").click(function () {
-    $.closeModal('.popup-about');
+    $.closeModal('.calculator-pop');
   });
   //计算器刻度
   var $cs=$('.calculator-scale');

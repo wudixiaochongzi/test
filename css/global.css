@@ -658,6 +658,7 @@ input[type=button].button,input[type=submit].button{width:100%}
 .button.button-primary{color:#fff;background-color:#fa9d35;border-color:#fa9d35;}
 .button.button-primary:active,
 .button.button-primary:hover{color:#fff;background-color:#f3651f; border-color:#f3651f}
+.wu-ensure-buy .button.button-primary:hover{background-color:#46aae5; border-color:#46aae5;}
 .wu-btn-box .button.button-primary:hover{background-color: #46aae5;}
 .button.button-disable{ color: #000;border-color: #ccc;  background-color: #ccc;}
 .button.button-disable:active,
@@ -2865,7 +2866,7 @@ section[class^='wu-my-options-']{background-color: #fff;margin-bottom: 0.5rem;}
 .list-block.approve-content .item-title{color: #333;}
 .list-block.approve-content .item-title.label{width: 28%;}
 .wu-btn-box{width: 100%;}
-.wu-container-btn{padding: 0;position: fixed;bottom: 0;z-index: 6666;}
+.wu-container-btn{padding: 0;position: fixed;bottom: 0;left:0;right: 0; z-index: 6666;}
 .wu-margin-btn{padding: 0 0.75rem;margin: .5rem 0;}
 .wu-container-btn.wu-btn-box .button{border-radius: 0!important;height: 2.4rem;font-size: 0.9rem;}
 .wu-btn-box .button{background: #46aae5;border: 0;border-radius: 5px;}
@@ -3042,9 +3043,12 @@ i.buy-bank-no{margin-right: 0.3rem; text-align: center; line-height: 1.2rem; bor
 .buy-bank-go{vertical-align: middle;line-height: 1.2rem;}
 .coupon-sum.bankcard-msg .item-link .item-inner{justify-content: space-between;}
 
-
-
-
+/*银行卡支持说明弹出层*/
+.card-available-pop .message-dec {margin:0.5rem 0;font-size:0.6rem;color:#ff9900;}
+.userule.card-available-pop ul,.userule.card-wh-pop ul{overflow: scroll;padding: 0;}
+.card-available-pop .list-block .item-inner:after,{height: 0;}
+.card-available-pop .list-block .item-media{padding: 10px 0 6px;}
+.card-wh-pop.userule li {border: none;text-align: left;}
 
 
 
